@@ -12,4 +12,5 @@
 * [Capítulo 13: TypeDef](capitulo-13-typedef.md)
 * [Autores](autores.md)
 * Lista de exercícios
+* [Capitulo 15: Leitura de Arquivo Texto](capitulo-15-leitura-de-arquivo-texto.md)
 
