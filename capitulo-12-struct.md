@@ -11,7 +11,7 @@ Struct\(abreviatura de _structure_\) tem como ideia declara mais de um registro 
 Por exemplo, se fosse necessário armazenar 300 eventos com o dia e hora que irão acontecer. Seria assim sem utilizarmos struct:
 
 ```c
-char evento[300];
+char evento[300][255];
 char dia[300][10];
 char hora[300][5];
 ```
