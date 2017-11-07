@@ -1,4 +1,4 @@
-# Capítulo 12 - Struct
+# Capítulo 12: Struct
 
 Aluno: Gabriel Amorim Rabello Sampaio - [**GitHub**](http://github.com/gabrielsampaio)
 
@@ -8,7 +8,7 @@ Struct\(abreviatura de _structure_\) tem como ideia declara mais de um registro 
 
 **2 - Criando e manipulando**
 
- Por exemplo, se fosse necessário armazenar 300 eventos com o dia e hora que irão acontecer. Seria assim sem utilizarmos struct:
+Por exemplo, se fosse necessário armazenar 300 eventos com o dia e hora que irão acontecer. Seria assim sem utilizarmos struct:
 
 ```c
 char evento[300];
@@ -41,13 +41,9 @@ eventos[0].hora = "23:00";
 eventos[0].nome = "Two Moro Lente";
 ```
 
-
-
 **3 - Referências**
 
 \[1\] -[  http://www.tiexpert.net/programacao/c/struct.php](http://www.tiexpert.net/programacao/c/struct.php)
 
-\[2\] - http://www.inf.pucrs.br/~pinho/LaproI/Structs/Structs.htm
-
-
+\[2\] - [http://www.inf.pucrs.br/~pinho/LaproI/Structs/Structs.htm](http://www.inf.pucrs.br/~pinho/LaproI/Structs/Structs.htm)
 
