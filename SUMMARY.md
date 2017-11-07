@@ -5,6 +5,6 @@
 * [Capítulo 2: Olá mundo, o primeiro programa](capitulo-2-ola-mundo-o-primeiro-programa.md)
 * [Capítulo 3: Criação de variáveis e tipos de dados](capitulo-3-criacao-de-variaveis-e-tipos-de-dados.md)
 * [Capitulo 6.2: Tomada de Decisões - Switch](capitulo-62-tomada-de-decisoes-switch.md)
-* [Capítulo 12: Struct](capitulo-12-struct.md)
 * [Capítulo 7: Loops - do..while](capitulo-7-loops-dowhile.md)
+* [Capítulo 12: Struct](capitulo-12-struct.md)
 
