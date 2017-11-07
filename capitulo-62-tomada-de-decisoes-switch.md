@@ -42,7 +42,7 @@ Neste segundo exemplo utilizando If's e Else's encadeados podemos notar que o c�
 
 #### Código Utilizando Switch
 
-```
+```c
 switch (valor)
 {
     case valor1:
@@ -57,5 +57,5 @@ switch (valor)
 }
 ```
 
-Também podemos definir uma ação padrão\(default\) para caso o valor passado não seja igual a nenhum dos cases
+Também podemos definir uma ação padrão\(default\) para caso o valor passado não seja igual a nenhum dos cases listados anteriormente
 
