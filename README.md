@@ -1,3 +1,4 @@
-# My Awesome Book
+# Introdução a Programação em C
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Este livro será desenvolvido pelos alunos de CSCW de forma colaborativa com o objetivo de ensinar programação de computadores na linguagem C para iniciantes.
+
