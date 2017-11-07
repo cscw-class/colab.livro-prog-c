@@ -7,4 +7,5 @@
 * [Capitulo 6.2: Tomada de Decisões - Switch](capitulo-62-tomada-de-decisoes-switch.md)
 * [Capítulo 12: Struct](capitulo-12-struct.md)
 * [Capítulo 7: Loops - do..while](capitulo-7-loops-dowhile.md)
+* [Capítulo 7.4: Loops - Break / Continue](capitulo-74-loops-break-continue.md)
 
