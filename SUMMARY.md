@@ -11,4 +11,5 @@
 * [Capítulo 12: Struct](capitulo-12-struct.md)
 * [Capítulo 13: TypeDef](capitulo-13-typedef.md)
 * [Autores](autores.md)
+* Lista de exercícios
 
