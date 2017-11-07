@@ -8,5 +8,5 @@
 * [Capítulo 12: Struct](capitulo-12-struct.md)
 * [Capítulo 7: Loops - do..while](capitulo-7-loops-dowhile.md)
 * [Capítulo 7.4: Loops - Break / Continue](capitulo-74-loops-break-continue.md)
-* Capítulo 5.2: Entrada e Saída de Dados:scanf\(....\)
+* [Capítulo 5.2: Entrada e Saída de Dados:scanf\(....\)](capitulo-52-entrada-e-saida-de-dadosscanf.md)
 
