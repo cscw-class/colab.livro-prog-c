@@ -1,0 +1,2 @@
+Scanf\("%d", &abacate\)
+
