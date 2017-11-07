@@ -4,9 +4,7 @@
 
 #### Introdução
 
-```
-      Basicamente Switch é um mecanismo para reduzir a utilização de diversos IF's e Else's o quer permitem diversas linhas de execução de código mediante uma condição. Com isso reduz a complexidade e facilita e muito entendimento da sua linha de código, é muito utilizado também para criação de menus em C/C++.
-```
+Basicamente Switch é um mecanismo para reduzir a utilização de diversos IF's e Else's o quer permitem diversas linhas de execução de código mediante uma condição. Com isso reduz a complexidade e facilita e muito entendimento da sua linha de código, é muito utilizado também para criação de menus em C/C++.
 
 #### Algorítmo/Pseudocódigo
 
