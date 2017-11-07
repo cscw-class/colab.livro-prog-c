@@ -13,4 +13,5 @@
 * [Capitulo 15: Leitura de Arquivo Texto](capitulo-15-leitura-de-arquivo-texto.md)
 * [Autores](autores.md)
 * Lista de exercícios
+* [Capítulo 14: Ponteiros](capitulo-14-ponteiros.md)
 
