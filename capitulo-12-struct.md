@@ -1,4 +1,8 @@
 # Capítulo 12 - Struct
 
-puts\("abacate"\);
+Aluno: Gabriel Amorim Rabello Sampaio - [GitHub](http://github.com/gabrielsampaio)
+
+
+
+
 
