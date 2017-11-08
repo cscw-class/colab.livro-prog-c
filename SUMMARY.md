@@ -10,8 +10,8 @@
 * [Capítulo 7.4: Loops - Break / Continue](capitulo-74-loops-break-continue.md)
 * [Capítulo 12: Struct](capitulo-12-struct.md)
 * [Capítulo 13: TypeDef](capitulo-13-typedef.md)
+* [Capítulo 14: Ponteiros](capitulo-14-ponteiros.md)
 * [Capitulo 15: Leitura de Arquivo Texto](capitulo-15-leitura-de-arquivo-texto.md)
 * [Autores](autores.md)
 * Lista de exercícios
-* [Capítulo 14: Ponteiros](capitulo-14-ponteiros.md)
 
