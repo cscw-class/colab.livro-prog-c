@@ -34,6 +34,9 @@ else
     else
         if (valor == Y)
             //Realiza Ação
+        else
+            if (valor == K)
+                //Realiza Ação
 ```
 
 Neste segundo exemplo utilizando If's e Else's encadeados podemos notar que o código fica bem mais complexo e cansativo para o leitor.
@@ -113,6 +116,4 @@ int main()
 1- Utilizando a ferramenta switch case, crie um programa que diga receba do usuario um numero de 1 a 12 e o programa deve retornar ao usuario qual nome do mes. Exemplo: 1 = Janeiro
 
 2 - Construa em  C uma mini calculadora utilizando Switch Case, onde o usuário deve selecionar se deseja fazer Soma, Subtração, Multiplicação ou Divisão e pedir ao usuário para inserir dois valores.
-
-
 
