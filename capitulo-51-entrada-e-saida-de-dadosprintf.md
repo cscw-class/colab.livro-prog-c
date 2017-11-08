@@ -12,8 +12,6 @@ Para usar o printf precisamos da biblioteca stdio.h e sua estrutura é: printf d
 | int | %d |
 | float | %f |
 
-
-
 Exemplo:
 
 1- escrever na tela uma mensagem, o usuário:
@@ -49,4 +47,6 @@ Exemplo:
 **obs1:** Note que quando mostramos o valor de uma variável, a variável ver, escrita dentro do comando printf
 
 **obs2**: em ambos os exemplos foi utilizado** \n** que serve para pular linha.
+
+**Obs3: **para imprimir uma string, precisamos de uma estrutura de repetição que será abordada nos próximos capítulos  
 
