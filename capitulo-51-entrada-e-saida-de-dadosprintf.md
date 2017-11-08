@@ -12,7 +12,7 @@ Para usar o printf precisamos da biblioteca stdio.h e sua estrutura é: printf d
 | int | %d |
 | float | %f |
 
-%c - variáveis do tipo char
+
 
 Exemplo:
 
