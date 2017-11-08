@@ -1,6 +1,8 @@
 # Autores deste livro
 
-#### Alex Salgado - github: [https://github.com/salgado](https://github.com/salgado)
+#### Alex Salgado - [Github](https://github.com/salgado)
+
+#### Ian Saud - [Github](https://github.com/IanSaud)
 
 #### 
 
