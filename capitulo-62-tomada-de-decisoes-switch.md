@@ -55,5 +55,59 @@ switch (valor)
 }
 ```
 
-Também podemos definir uma ação padrão\(default\) para caso o valor passado não seja igual a nenhum dos cases listados anteriormente
+Também podemos definir uma ação padrão\(default\) para caso o valor passado não seja igual a nenhum dos cases listados anteriormente, abaixo um exemplo de uso
+
+```c
+switch (valor)
+{
+    case 1:
+        printf("Voce digitou 1\n");
+    break;
+    case 2:
+        printf("Voce digitou 2\n");
+
+    break;
+    case 3:
+        printf("Voce digitou 3\n");
+
+    break;
+    default:
+        printf("Voce digitou um numero que nao consta nas opcoes\n");
+
+}
+```
+
+Agora um exemplo mais pratico de um código de um menu montado utilizando o switch case 
+
+```c
+#include <stdio.h>
+
+int main()
+{    
+    int menu;
+    
+    printf("Menu Seleções\n");
+    printf("1 - Listar Cores Primarias\n");
+    printf("2 - Listar Cores Secundarias");
+    scanf("%d", &menu);
+    
+    switch (menu)
+    {
+        case 1:
+            printf("Vermelho\n Amarelo\n Azul\n");
+            break;
+        case 2:
+            printf("Laranja\n Verde\n Violeta\n");
+            break;
+        default:
+            printf("Vc deve inserir um numero listado no menu 1 ou 2");
+            break;
+    }
+
+    
+}
+
+```
+
+
 
