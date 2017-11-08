@@ -77,7 +77,7 @@ switch (valor)
 }
 ```
 
-Agora um exemplo mais pratico de um código de um menu montado utilizando o switch case 
+Agora um exemplo mais pratico de um código de um menu montado utilizando o switch case
 
 ```c
 #include <stdio.h>
@@ -85,12 +85,12 @@ Agora um exemplo mais pratico de um código de um menu montado utilizando o swit
 int main()
 {    
     int menu;
-    
+
     printf("Menu Seleções\n");
     printf("1 - Listar Cores Primarias\n");
     printf("2 - Listar Cores Secundarias");
     scanf("%d", &menu);
-    
+
     switch (menu)
     {
         case 1:
@@ -104,10 +104,15 @@ int main()
             break;
     }
 
-    
-}
 
+}
 ```
+
+#### Exercício
+
+1- Utilizando a ferramenta switch case, crie um programa que diga receba do usuario um numero de 1 a 12 e o programa deve retornar ao usuario qual nome do mes. Exemplo: 1 = Janeiro
+
+2 - Construa em  C uma mini calculadora utilizando Switch Case, onde o usuário deve selecionar se deseja fazer Soma, Subtração, Multiplicação ou Divisão e pedir ao usuário para inserir dois valores.
 
 
 
