@@ -16,4 +16,5 @@
 * [Autores](autores.md)
 * Lista de exercícios
 * [Capítulo 5.1: Entrada e Saída de Dados:printf\(....\)](capitulo-51-entrada-e-saida-de-dadosprintf.md)
+* [Capítulo 9: Matrizes](capitulo-9-matrizes.md)
 
