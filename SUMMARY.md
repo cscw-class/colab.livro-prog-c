@@ -16,6 +16,6 @@
 * [Capitulo 15: Leitura de Arquivo Texto](capitulo-15-leitura-de-arquivo-texto.md)
 * [Capitulo 16.1: Arquivo Binário - Leitura](161-arquivo-binario-leitura.md)
 * [Autores](autores.md)
-* Lista de exercícios
+* [Lista de exercícios](lista-de-exercicios.md)
 * [Capítulo 9: Matrizes](capitulo-9-matrizes.md)
 

@@ -12,9 +12,9 @@ Para usar o printf precisamos da biblioteca stdio.h e sua estrutura é: printf d
 | int | %d |
 | float | %f |
 
-Exemplo:
+**Exemplo:**
 
-1- escrever na tela uma mensagem, o usuário:
+**1- escrever na tela uma mensagem, o usuário:**
 
 `#include<stdio.h>`
 
@@ -48,5 +48,15 @@ Exemplo:
 
 **obs2**: em ambos os exemplos foi utilizado** \n** que serve para pular linha.
 
-**Obs3: **para imprimir uma string, precisamos de uma estrutura de repetição que será abordada nos próximos capítulos  
+**Obs3: **para imprimir uma string, precisamos de uma estrutura de repetição que será abordada nos próximos capítulos
+
+
+
+**Exercícios:**
+
+1- Faça um programa em C que imprima a mensagem "estou programando em c"
+
+2- Faca um programa em C que imprima o valor de uma variável do tipo float 
+
+
 
