@@ -1,2 +1,2 @@
-\#Criação de variáveis e tipos de dados
+#Criação de variáveis e tipos de dados
 
