@@ -1,4 +1,18 @@
-# Capítulo 13: TypeDef
+# Capítulo 13: Typedef
 
-texto do capítulo 13
+###### **Por **[**Eyre Brasil Montevecchi**](https://github.com/eyrebrasil)
+
+---
+
+**O que é o Typedef?**
+
+**Typedef para criação de tipos**
+
+**Typedef em struct**
+
+**Exercícios**
+
+**Referências**
+
+
 
