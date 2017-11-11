@@ -64,19 +64,13 @@
 
 ![](/assets/exemplo_for.PNG)
 
-\#include&lt;iostream&gt;
-
-main\(void\)
-
-#### 
-
-#### 
-
-#### 
-
 #### Usando o Foreach\(\):
 
 ##### O Foreach tem o mesmo funcionamento do For, porém ele não precisa de contador, ele executa um grupo de comandos para cada elemento de um array, por exemplo:
+
+##### ![](/assets/exemplo2_for.PNG)
+
+##### 
 
 ##### Exercícios:
 
