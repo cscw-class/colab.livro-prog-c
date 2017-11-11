@@ -13,7 +13,7 @@
      }
 ```
 
-##### Neste segundo exemplo, é mostrado um código de impressão na tela do número 1 até 10, utilizando o comando For: A variável número é inicializada como um valor inteiro. Dentro do comando For, em sua primeira condição: numero =1, a variável número vai receber 1 como valor. Na segunda condição: numero&lt;=10, o programa vai repetir a instrução: cout &lt;&lt; " Número...:" &lt;&lt; numero &lt;&lt; endl; enquanto o número for menor ou igual a dez, mostrando na tela os números, na terceira condição: numero ++, será somado +1 no valor da variável número e quando chegar ao valor 11 o programa não vai mais executar a instrução, saindo do loop.
+#####     Neste segundo exemplo, é mostrado um código de impressão na tela do número 1 até 10, utilizando o comando For: A variável número é inicializada como um valor inteiro. Dentro do comando For, em sua primeira condição: numero =1, a variável número vai receber 1 como valor. Na segunda condição: numero&lt;=10, o programa vai repetir a instrução: cout &lt;&lt; " Número...:" &lt;&lt; numero &lt;&lt; endl; enquanto o número for menor ou igual a dez, mostrando na tela os números, na terceira condição: numero ++, será somado +1 no valor da variável número e quando chegar ao valor 11 o programa não vai mais executar a instrução, saindo do loop.
 
 ##### No terceiro exemplo mostra a utilização do comando For para determinar a quantidade de vezes que o comando For se repetirá.
 
@@ -43,24 +43,36 @@
       int quantasVezes;
       char nome[7];
       int idade;
-      
+
       cout << Quantas vezes repetir? ";
       cin >> quantasVezes;
-      
+
       for( numero=1; numero<=quantasVezes; numero++)
       {
          cout << "Digite um nome:";
          cin >> nome;
-         
+
          cout << "Digite uma idade:";
          cin >> idade;
       }
-   }    
+   }
 ```
 
-##### O programa pergunta para o usuário quantas vezes ele quer repetir o comando For. A resposta do número de vezes, será armazenada na variável quantasVezes, então se a resposta foi 4, o programa vai perguntar o nome e a idade e imprimir na tela, quatro vezes.
+#####     O programa pergunta para o usuário quantas vezes ele quer repetir o comando For. A resposta do número de vezes, será armazenada na variável quantasVezes, então se a resposta foi 5, o programa vai perguntar o nome e a idade e imprimir na tela, quatro vezes.
+
+##### Exemplo do resultado da impressão na tela deste código:
 
 ![](/assets/exemplo_for.PNG)
+
+#### Usando o Foreach\(\):
+
+##### O Foreach tem o mesmo funcionamento do For, porém ele não precisa de contador, ele executa um grupo de comandos para cada elemento de um array, por exemplo:
+
+$cores= array\('
+
+##### Exercícios:
+
+
 
 
 
