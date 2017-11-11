@@ -70,6 +70,8 @@
 
 \#include&lt;iostream&gt;
 
+main\(void\)
+
 ##### Exercícios:
 
 
