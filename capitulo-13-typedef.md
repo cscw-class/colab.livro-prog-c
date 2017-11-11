@@ -1,6 +1,6 @@
 # **Capítulo 13: Typedef**
 
-**Aluna: Eyre Brasil Montevecchi – Github \(**[**https://github.com/eyrebrasil**](https://github.com/eyrebrasil)**\)**
+**Aluna: Eyre Brasil Montevecchi – **[**Github**](https://github.com/eyrebrasil)
 
 #### **13.1. Definição**
 
@@ -67,7 +67,7 @@ pontos maior_pontuacao ;
 
 void congratular (pontos sua_pontuacao) {
     if (sua_pontuacao > maior_pontuacao){
-	...
+    ...
     }
 }
 ```
