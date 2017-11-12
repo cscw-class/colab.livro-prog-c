@@ -18,39 +18,53 @@ Os objetos na memória ocupam uma quantidade de específica de  bytes consecutiv
 | Long Int | 8 |
 | Double | 8 |
 
-Cada objeto na memória ocupa um endereço, que é o endereço do primeiro byte. Por exemplo
+Cada objeto na memória ocupa um endereço, que é o endereço do primeiro byte.
 
-char c;
+Exemplo de declarações:
 
-int i;
+```
+         char c;
 
-struct {int x,y;}ponto;
+         int i;
 
-int v\[4\];
+         struct {
 
-c            89421
+         int x,y;
 
-i             89422
+         }ponto;.
 
-ponto    89426
+        int v\[4\];
+```
 
-v\[0\]        89434
+Exemplo de alocação de espaço na memórias das variáveis declaradas:
 
-v\[1\]        89438
+```
+        c            89421
 
-v\[2\]        89442
+        i             89422
 
-v\[3\]        89446
+        ponto    89426
+
+       v\[0\]        89434
+
+       v\[1\]        89438
+
+       v\[2\]        89442
+
+       v\[3\]        89446
+```
 
 ### 14.2 - Operadores
 
-#### 14.2.1 Operador Unário & \("endereço de"\):
+#### 14.2.1 - Operador Unário & \("endereço de"\):
 
 Quando aplicado a variável, resulta no endereço da posição de memória reservada para a mesma.
 
+Nos exemplos dados acima teríamos que &c = 89421, &i = 89422, &v\[2\] = 89442, ...
 
+**Obs: **Não confundir  o uso do **&**  com o operador lógico _**and**_, que se escreve **&&** em C..
 
-#### 14.2.2 Operador Unário \* \("conteúdo de"\):
+#### 14.2.2 - Operador Unário \* \("conteúdo de"\):
 
 Aplicado a variáveis do tipo ponteiro ponteiro, acessa o conteúdo dom endereço de memória armazenado pela variável ponteiro.
 
@@ -64,11 +78,86 @@ Para cada tipo existente há um tipo de ponteiro que pode **armazenar endereços
 
 **int \*p;**
 
-# em construção
+### 14.3 - Ponteiros
+
+A utilização de ponteiros em linguagem C é uma das características que tornam a linguagem tão flexível e poderosa. Ponteiros ou apontadores, são variáveis que **armazenam o endereço de memória de outras variáveis**.
+
+Quando um ponteiro \(a variável\) contém um determinado endereço, dizemos que ele aponta para o endereço de memória. Assim, dizemos que um ponteiro “aponta” para uma variável quando contém o endereço da mesma. Ele pode apontar para qualquer tipo de variável.
+
+Para animar um pouco, abaixo um link sobre ponteiros:
+
+[https://www.youtube.com/watch?v=r7f-aR7vgg0](https://www.youtube.com/watch?v=r7f-aR7vgg0)
+
+#### 14.3.1 - Utilização dos Ponteiros
+
+Ponteiros são muito úteis quando uma variável tem que ser acessada em diferentes partes de um programa.
+
+Neste caso, o código pode ter vários ponteiros espalhados por diversas partes do programa, “apontando” para a variável que contém o dado desejado.
+
+Caso este dado seja alterado, não há problema algum, pois todas as partes do programa tem um ponteiro que aponta para o endereço onde reside o dado atualizado.
+
+Existem várias situações onde ponteiros são úteis, por exemplo:
+
+* Alocação dinâmica de memória
+* Manipulação de arrays.
+* Para retornar mais de um valor em uma função.
+* Referência para listas, pilhas, árvores e grafos.
+
+#### 14.3.2 - **Sintaxe de declaração de ponteiro**
+
+Falamos anteriormente sobre os operadores unários, e vamos relembrar agora o **operador \*** para sintaxe da declaração dos ponteiros.
+
+Como vimos, para definir que uma variável é um ponteiro, utilizamos o operador unário \* na frente do nome da variável:
+
+```
+    **tipo \*nome\_ponteiro;**
+```
+
+Onde temos:
+
+```
+   **tipo**: é o tipo de dado da variável cujo endereço o ponteiro armazena.
+
+   **\*nome\_ponteiro**: O nome da variável ponteiro.
+```
+
+Exemplo de declaração de ponteiro:
+
+```
+   **int \*ptr;**
+```
+
+###### ![](/assets/ponteiro1.png)Fonte: Dept. Informática - PUC-Rio
+
+###### 
+
+![](/assets/ponteiro2.png)
+
+###### Fonte: Dept. Informática - PUC-Rio
+
+| ![](/assets/ponteiro3.png) | ![](/assets/p4.png) |
+| :--- | :--- |
+| Erro na atribuição **\*p=3**, pois utiliza a memória apontada por **p** para armazenar o valor 3, sem que p tivesse sido  iniciali-zada, logo armazena 3 em um espaço  de  memória  desco-nhecido. | Atribuição correta de **\*p = 3**, onde **p** aponta para **c**  e  a  atri-buição armazena 3 no espaço de memória reservado para **c** |
+
+###### Fonte: Dept. Informática - PUC-Rio
+
+### 14.4 - Exercícios
+
+Faça agora os exercícios. Acesse a lista de exercícios acessando  a página da lista de exercúicios deste e-book.
+
+[https://www.gitbook.com/book/alexsalgado/introducao-a-programacao-em-c/edit\#/edit/master/lista-de-exercicios.md?\_k=6dkdni&gt](https://www.gitbook.com/book/alexsalgado/introducao-a-programacao-em-c/edit#/edit/master/lista-de-exercicios.md?_k=6dkdni&gt);
+
+
+
+**Obs:** _Ponteiros é uma conteúdo muito extenso. Que novos alunos venha complementar este trabalho inicial!_
+
+#### 
 
 #### Referências:
 
-_** FEOFILOFF**, Paulo; Endereços e Ponteiros. Página eletrônica do ime.usp.br. Disponível em &lt;_[_https://www.ime.usp.br/~pf/algoritmos/aulas/pont.html_](https://www.ime.usp.br/~pf/algoritmos/aulas/pont.html)_&gt;. Acessado em 07 de novembro de 2017._
+_** FEOFILOFF**, Paulo;** Endereços e Ponteiros**. Página eletrônica do ime.usp.br. Disponível em &lt;_[_https://www.ime.usp.br/~pf/algoritmos/aulas/pont.html_](https://www.ime.usp.br/~pf/algoritmos/aulas/pont.html)_&gt;. Acessado em 07 de novembro de 2017._
 
-**DELGADO**,Armando Luiz Nicolini; Ponteiros. _Página eletrônica do inf.ufpr.br. Disponível em &lt;_[_http://www.inf.ufpr.br/cursos/ci067/Docs/NotasAula/notas-28\_Ponteiros.html_](http://www.inf.ufpr.br/cursos/ci067/Docs/NotasAula/notas-28_Ponteiros.html)_&gt;. Acessado em 07 de novembro de 2017._
+**DELGADO**,Armando Luiz Nicolini; **Ponteiros**. _Página eletrônica do inf.ufpr.br. Disponível em &lt;_[_http://www.inf.ufpr.br/cursos/ci067/Docs/NotasAula/notas-28\_Ponteiros.html_](http://www.inf.ufpr.br/cursos/ci067/Docs/NotasAula/notas-28_Ponteiros.html)_&gt;. Acessado em 07 de novembro de 2017._
+
+**CASAVELLA**,Eduardo; Intellectuale. Tecnologia e Treinamento. _Página eletrônica_. _Página eletrônica.. Disponível em &lt;_[_http://www.inf.ufpr.br/cursos/ci067/Docs/NotasAula/notas-28\_Ponteiros.html_](http://linguagemc.com.br/ponteiros-em-c/)_&gt;. Acessado em 12 de novembro de 2017._
 
