@@ -36,7 +36,7 @@ No terceiro exemplo, mostra a utilização do comando For, para determinar quant
 
 ```
    Exemplo 3:
-   
+
    #include<iostream>;
    using namespace std;
 
@@ -65,11 +65,11 @@ O usuário deve escolher quantas vezes o comando For irá repetir as suas instru
 
 ![](/assets/exemplo_for.PNG)
 
-No quarto exemplo, mostra o cálculo de uma soma dos elementos de 1 até 10. 
+No quarto exemplo, mostra o cálculo de uma soma dos elementos de 1 até 10.
 
 ```
  Exemplo 4:
- 
+
  #include <stdio.h>
  #include<stdlib.h>
  int main()
@@ -80,7 +80,7 @@ No quarto exemplo, mostra o cálculo de uma soma dos elementos de 1 até 10.
         s = s + 1;
     }
     cout << "Soma= %d\n",s;
- }  
+ }
 ```
 
 ##### 
