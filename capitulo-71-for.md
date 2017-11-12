@@ -32,7 +32,7 @@ Neste segundo exemplo , é mostrado um código de impressão na tela do número 
      }
 ```
 
-   No terceiro exemplo, mostra a utilização do comando For, para determinar quantidade e vezes ele vai se repetir.
+No terceiro exemplo, mostra a utilização do comando For, para determinar quantidade e vezes ele vai se repetir.
 
 ```
    #include<iostream>;
@@ -59,9 +59,7 @@ Neste segundo exemplo , é mostrado um código de impressão na tela do número 
    }
 ```
 
-```
    O usuário deve escolher quantas vezes o comando For irá repetir as suas instruções então se o usuário digitar 5, por exemplo, ele deve digitar, um nome e uma idade, cinco vezes, que serão impressas na tela. A imagem abaixo mostra um exemplo de impressão na tela:
-```
 
 ![](/assets/exemplo_for.PNG)
 
