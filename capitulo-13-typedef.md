@@ -4,7 +4,7 @@
 
 #### **13.1. Definição**
 
-A palavra reservada **typedef** é utilizada para criar um alias ou “apelido” para tipos de dados na linguagem C e C++. Desta forma, tipos de dados podem ser organizados segundo a sua função e tipos com declarações de variáveis complexas e longas podem ter sua nomenclatura simplificada. Sua forma geral é: 
+A palavra reservada **typedef** é utilizada para criar um alias ou “apelido” para tipos de dados na linguagem C e C++. Desta forma, tipos de dados podem ser organizados segundo a sua função e tipos com definições ou declarações de variáveis complexas e longas podem ter sua nomenclatura simplificada. Sua forma geral é:
 
 `typedef antigo_nome novo_nome;`
 
@@ -29,7 +29,7 @@ int main () {
 }
 ```
 
-No trecho de código acima, o nome vetorIntTamMAX é definido como um _alias _ou uma outra forma mais resumida de declarar um vetor de inteiros com tamanho igual ao valor definido para a constante MAX. Agora, no programa acima, quando quisermos declarar um vetor desse tipo, basta escrever:
+No trecho de código acima, o nome vetorIntTamMAX é definido como um \_alias \_ou uma outra forma mais resumida de declarar um vetor de inteiros com tamanho igual ao valor definido para a constante MAX. Agora, no programa acima, quando quisermos declarar um vetor desse tipo, basta escrever:
 
 ```c
 vetorIntTamMAX v1;
@@ -72,7 +72,7 @@ void congratular (pontos sua_pontuacao) {
 }
 ```
 
-Os dois trechos de código executam da mesma maneira, mas no segundo trecho, é mais clara a incompatibilidade entre as variáveis velocidade\_atuale maior\_pontuacao, embora sejam ambas do tipo _int _e comparáveis para o compilador, que não apontaria nenhum problema ao compilar o código abaixo, que está incorreto contextualmente e retornará resultados indesejados para o programa em questão:
+Os dois trechos de código executam da mesma maneira, mas no segundo trecho, é mais clara a incompatibilidade entre as variáveis velocidade\_atuale maior\_pontuacao, embora sejam ambas do tipo \_int \_e comparáveis para o compilador, que não apontaria nenhum problema ao compilar o código abaixo, que está incorreto contextualmente e retornará resultados indesejados para o programa em questão:
 
 ```c
 velocidade_atual = 100;
@@ -86,7 +86,7 @@ typedef int pontos;
 unsigned pontos a;
 ```
 
-#### **13.3 Simplificando declarações**
+#### **13.3 Simplificando definições e declarações**
 
 Podemos também simplificar o nome de tipos mais complexos, como as estruturas de dados \(_struct_\). Veja o trecho de código abaixo:
 
@@ -103,7 +103,7 @@ Agora que a _struct_ minhaStruct foi definida, para declarar variáveis desse ti
 struct minhaStruct a;
 ```
 
-Podemos eliminar a utilização da palavra _struct _de duas formas. Acrescentando a palavra _typedef _à declaração como abaixo:
+Podemos eliminar a utilização da palavra _struct \_de duas formas. Acrescentando a palavra \_typedef _à declaração como abaixo:
 
 ```c
 typedef minhaStruct minhaStructNova;
@@ -123,19 +123,33 @@ typedef struct nomeDaMinhaStruct{
 ApelidoDaMinhaStruct a;
 ```
 
-####  
+Suponha porém que estamos criando uma estrutura chamada **nodo**. Esta estrutura terá um valor chave e ponteiros que pontam para uma estrutura nodo também. Teríamos que utilizar a seguinte declaração abaixo:
 
-#### 
+```c
+typedef struct nodo{
+    int chave;
+    struct nodo *prox;
+    struct nodo *ante;
+} Nodo;
+```
 
-#### 
+Note que precisamos usar a palavra _struct _para declarar ponteiros para _struct _nodo, pois o apelido só é definido após o corpo da _struct_ nodo. Para usarmos os ponteiros de forma mais simplificada, basta fazer como o exemplo abaixo:
 
-#### 
+```c
+typedef struct nodo Nodo;
 
-#### 
+struct Nodo{
+    int chave;
+    Nodo *prox;
+    Nodo *ante;
+};
+```
 
-#### **Exercícios**
+#### 1**3.4 Exercícios**
 
-#### **Referências**
+
+
+#### 1**3.5 Referências**
 
 \[1\] Typedef. Wikipédia, 2017. Disponível em: &lt;[https://en.wikipedia.org/wiki/Typedef](https://en.wikipedia.org/wiki/Typedef)&gt;. Acesso em: 10 nov. 2017.
 
