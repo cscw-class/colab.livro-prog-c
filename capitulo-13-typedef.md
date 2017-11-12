@@ -145,7 +145,7 @@ struct Nodo{
 
 #### 1**3.4 Exercícios**
 
-1. Considerando a definição abaixo, como seria a declaração das variáveis p1 do tipo int\* e p2 do tipo int\*\*:
+1. Considerando a definição abaixo, como seria a declaração das variáveis p1 do tipo int\* e p2 do tipo int\*\*?
 
 ```c
 typedef int *pontInt;
