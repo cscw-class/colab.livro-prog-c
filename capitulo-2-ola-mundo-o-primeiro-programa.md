@@ -8,7 +8,7 @@ Quando aprendemos uma nova linguagem de programação tradicionalmente criamos u
 
 No aconselho que seja utilizado a IDE\(Integrated development environment/Ambiente de Desenvolvimento Integrado\) Dev C++ pela simplicidade e praticidade da mesma.
 
-Basta seguir os passos abaixo: 
+Basta seguir os passos abaixo:
 
 **Exemplo:**
 
@@ -38,7 +38,7 @@ Basta seguir os passos abaixo:
 | int main\(\){ | Abertura da função principal, conhecida como main\(\), int no começo quer dizer que o mesmo retornará um inteiro. |
 | printf\("Conteúdo"\) | O comando printf\("Conteúdo"\) é para mostrar na tela o conteúdo que está entre "". |
 | system\("pause"\) | Por default programas em C fecham automaticamente no final, o comando system\("pause"\) é para congelar a tela após mostrar a mensagem para que assim o usuário consiga visualizar. |
-| return 0 | É um comando default dos programas em c, informa um retorno da função main, pode ser 0 ou qualquer numero inteiro, porque foi indicado no começo que a mesma retornaria um numero int.  |
+| return 0 | É um comando default dos programas em c, informa um retorno da função main, pode ser 0 ou qualquer numero inteiro, porque foi indicado no começo que a mesma retornaria um numero int. |
 
 **3- Salvar com extensão .c**
 
@@ -48,11 +48,17 @@ Basta seguir os passos abaixo:
 
 ![](/assets/compile/run.png)
 
-
-
 **Exercícios:**
 
 1- Faça um programa em C que imprima a mensagem "Segundo Programa"
 
 2- Faça um programa em C que imprima a mensagem "Segundo programa" duas vezes.
+
+
+
+**Referências:**
+
+https://pt.wikipedia.org/wiki/Dev-C%2B%2B
+
+
 
