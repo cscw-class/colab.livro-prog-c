@@ -133,7 +133,7 @@ typedef struct nodo{
 } Nodo;
 ```
 
-Note que precisamos usar a palavra _struct _para declarar ponteiros para _struct _nodo, pois o apelido só é definido após o corpo da _struct_ nodo. Para usarmos os ponteiros de forma mais simplificada, basta fazer como o exemplo abaixo:
+Note que precisamos usar a palavra _struct \_para declarar ponteiros para \_struct \_nodo, pois o apelido só é definido após o corpo da \_struct_ nodo. Para usarmos os ponteiros de forma mais simplificada, basta fazer como o exemplo abaixo:
 
 ```c
 typedef struct nodo Nodo;
@@ -147,7 +147,28 @@ struct Nodo{
 
 #### 1**3.4 Exercícios**
 
+1. Considerando a definição abaixo, como seria a declaração das variáveis p1 do tipo int\* e p2 do tipo int\*\*:
 
+```c
+typedef int *pontInt;
+```
+
+2. Simplifique as definições e declarações das structs abaixo, utilizando o typedef:
+
+```c
+struct ponto{
+    int x;
+    int y;
+};
+
+struct linha{
+    struct ponto p1;
+    struct ponto p2;
+    int distancia;
+};
+
+struct linha l1;
+```
 
 #### 1**3.5 Referências**
 
