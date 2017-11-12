@@ -107,7 +107,6 @@ Podemos eliminar a utilização da palavra _struct _de duas formas. Acrescentand
 
 ```c
 typedef minhaStruct minhaStructNova;
-
 //declaração agora fica:
 minhaStructNova a;
 ```
@@ -137,7 +136,6 @@ Note que precisamos usar a palavra _struct para declarar ponteiros para struct n
 
 ```c
 typedef struct nodo Nodo;
-
 struct Nodo{
     int chave;
     Nodo *prox;
@@ -153,14 +151,13 @@ struct Nodo{
 typedef int *pontInt;
 ```
 
-1. Simplifique as definições e declarações das structs abaixo, utilizando o typedef:
+1. Simplifique as definições e declarações das _structs _abaixo, utilizando o _typedef_:
 
 ```c
 struct ponto{
     int x;
     int y;
 };
-
 struct linha{
     struct ponto p1;
     struct ponto p2;
