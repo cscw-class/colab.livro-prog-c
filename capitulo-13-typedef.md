@@ -29,7 +29,7 @@ int main () {
 }
 ```
 
-No trecho de código acima, o nome vetorIntTamMAX é definido como um \_alias \_ou uma outra forma mais resumida de declarar um vetor de inteiros com tamanho igual ao valor definido para a constante MAX. Agora, no programa acima, quando quisermos declarar um vetor desse tipo, basta escrever:
+No trecho de código acima, o nome vetorIntTamMAX é definido como um _alias_ ou uma outra forma mais resumida de declarar um vetor de inteiros com tamanho igual ao valor definido para a constante MAX. Agora, no programa acima, quando quisermos declarar um vetor desse tipo, basta escrever:
 
 ```c
 vetorIntTamMAX v1;
@@ -72,7 +72,7 @@ void congratular (pontos sua_pontuacao) {
 }
 ```
 
-Os dois trechos de código executam da mesma maneira, mas no segundo trecho, é mais clara a incompatibilidade entre as variáveis velocidade\_atuale maior\_pontuacao, embora sejam ambas do tipo \_int \_e comparáveis para o compilador, que não apontaria nenhum problema ao compilar o código abaixo, que está incorreto contextualmente e retornará resultados indesejados para o programa em questão:
+Os dois trechos de código executam da mesma maneira, mas no segundo trecho, é mais clara a incompatibilidade entre as variáveis velocidade\_atuale maior\_pontuacao, embora sejam ambas do tipo _int_ e comparáveis para o compilador, que não apontaria nenhum problema ao compilar o código abaixo, que está incorreto contextualmente e retornará resultados indesejados para o programa em questão:
 
 ```c
 velocidade_atual = 100;
@@ -103,7 +103,7 @@ Agora que a _struct_ minhaStruct foi definida, para declarar variáveis desse ti
 struct minhaStruct a;
 ```
 
-Podemos eliminar a utilização da palavra _struct \_de duas formas. Acrescentando a palavra \_typedef _à declaração como abaixo:
+Podemos eliminar a utilização da palavra _struct de duas formas. Acrescentando a palavra typedef _à declaração como abaixo:
 
 ```c
 typedef minhaStruct minhaStructNova;
@@ -123,7 +123,7 @@ typedef struct nomeDaMinhaStruct{
 ApelidoDaMinhaStruct a;
 ```
 
-Suponha porém que estamos criando uma estrutura chamada **nodo**. Esta estrutura terá um valor chave e ponteiros que pontam para uma estrutura nodo também. Teríamos que utilizar a seguinte declaração abaixo:
+Suponha porém, que estamos criando uma estrutura chamada **nodo**. Esta estrutura terá um valor chave e ponteiros que pontam para uma estrutura nodo também. Teríamos que utilizar a seguinte declaração abaixo:
 
 ```c
 typedef struct nodo{
@@ -133,7 +133,7 @@ typedef struct nodo{
 } Nodo;
 ```
 
-Note que precisamos usar a palavra _struct \_para declarar ponteiros para \_struct \_nodo, pois o apelido só é definido após o corpo da \_struct_ nodo. Para usarmos os ponteiros de forma mais simplificada, basta fazer como o exemplo abaixo:
+Note que precisamos usar a palavra _struct para declarar ponteiros para struct nodo, pois o apelido só é definido após o corpo da struct_ nodo. Para usarmos os ponteiros de forma mais simplificada, basta fazer como o exemplo abaixo:
 
 ```c
 typedef struct nodo Nodo;
@@ -153,7 +153,7 @@ struct Nodo{
 typedef int *pontInt;
 ```
 
-2. Simplifique as definições e declarações das structs abaixo, utilizando o typedef:
+1. Simplifique as definições e declarações das structs abaixo, utilizando o typedef:
 
 ```c
 struct ponto{
