@@ -1,6 +1,6 @@
 Capítulo 7.1: For
 
- O comando For é uma estrutura de repetição. A estrutura de repetição permite que uma instrução seja executada mais de uma vez em um programa. Uma variável deve ser inicializada para controlar os loops \(voltas\). O comando For, é formado por três condições, que são compostas pela inicialização, referente ao valor inicial atribuída para a variável; a condição, na qual é avaliada e se for verdadeira, os comandos do bloco são executados, senão o loop é encerrado e o incremento, na qual é somada, na variável, um determinado valor, escolhida pelo usuário.
+O comando For é uma estrutura de repetição. A estrutura de repetição permite que uma instrução seja executada mais de uma vez em um programa. Uma variável deve ser inicializada para controlar os loops \(voltas\). O comando For, é formado por três condições, que são compostas pela inicialização, referente ao valor inicial atribuída para a variável; a condição, na qual é avaliada e se for verdadeira, os comandos do bloco são executados, senão o loop é encerrado e o incremento, na qual é somada, na variável, um determinado valor, escolhida pelo usuário.
 
 ##### 
 
@@ -14,9 +14,7 @@ No exemplo abaixo mostra a sintaxe básica do comando For:
          sequência de comandos;
 ```
 
-```
       Neste segundo exemplo , é mostrado um código de impressão na tela do número 1 até 10 , utilizando o comando For.  A variável número é inicializada como um valor inteiro . Dentro do comando For, em sua primeira condição: numero =1, a variável numero vai recebeu1 como valor. Na segunda condição; numero &lt;= 10, o programa vai repetir a condição a instrução: cout &lt;&lt; "Numero:" &lt;&lt; numero &lt;&lt; endl; enquanto o número for menor ou igual a dez, mostrando na tela os números, na terceira condição: numero++, será somado +1 no valor da variável, quando a variável número chegar em 11, o programa não vai mais executar a instrução, saindo do loop.
-```
 
 ```
     Exemplo 2:
