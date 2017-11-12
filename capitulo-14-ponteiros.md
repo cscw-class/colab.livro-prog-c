@@ -42,19 +42,17 @@ v\[2\]        89442
 
 v\[3\]        89446
 
-
-
 ### 14.2 - Operadores
 
 #### 14.2.1 Operador Unário & \("endereço de"\):
 
 Quando aplicado a variável, resulta no endereço da posição de memória reservada para a mesma.
 
+
+
 #### 14.2.2 Operador Unário \* \("conteúdo de"\):
 
 Aplicado a variáveis do tipo ponteiro ponteiro, acessa o conteúdo dom endereço de memória armazenado pela variável ponteiro.
-
-
 
 Para cada tipo existente há um tipo de ponteiro que pode **armazenar endereços de memória** , onde existem valores do tipo correspondente armazenados.
 
