@@ -15,7 +15,7 @@ No exemplo abaixo mostra a sintaxe básica do comando For**:**
      }
 ```
 
-Neste segundo exemplo , é mostrado um código de impressão na tela do número 1 até 10 , utilizando o comando For.  A variável número é inicializada como um valor inteiro . Dentro do comando For,
+Neste segundo exemplo , é mostrado um código de impressão na tela do número 1 até 10 , utilizando o comando For.  A variável número é inicializada como um valor inteiro . Dentro do comando For, em sua primeira condição: numero =1, a variável numero vai recebeu1 como valor. Na segunda condição; numero &lt;= 10, o programa vai repetir a condição a instrução: cout &lt;&lt; "Numero:" &lt;&lt; numero &lt;&lt; endl; enquanto o número for menor ou igual a dez, mostrando na tela os números
 
 ```
     Exemplo 2:
