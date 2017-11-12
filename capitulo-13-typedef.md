@@ -72,7 +72,7 @@ void congratular (pontos sua_pontuacao) {
 }
 ```
 
-Os dois trechos de código executam da mesma maneira, mas no segundo trecho, é mais clara a incompatibilidade entre as variáveis velocidade\_atuale maior\_pontuacao, embora sejam ambas do tipo _int_ e comparáveis para o compilador, que não apontaria nenhum problema ao compilar o código abaixo, que está incorreto contextualmente e retornará resultados indesejados para o programa em questão:
+Os dois trechos de código executam da mesma maneira, mas no segundo trecho, é mais clara a incompatibilidade entre as variáveis velocidade\_atual e maior\_pontuacao, embora sejam ambas do tipo _int_ e comparáveis para o compilador, que não apontaria nenhum problema ao compilar o código abaixo, que está incorreto contextualmente e retornará resultados indesejados para o programa em questão:
 
 ```c
 velocidade_atual = 100;
@@ -103,7 +103,7 @@ Agora que a _struct_ minhaStruct foi definida, para declarar variáveis desse ti
 struct minhaStruct a;
 ```
 
-Podemos eliminar a utilização da palavra _struct _de duas formas. Acrescentando a palavra _typedef _à declaração como abaixo:
+Podemos eliminar a utilização da palavra _struct_ de duas formas. Acrescentando a palavra _typedef _à declaração como abaixo:
 
 ```c
 typedef minhaStruct minhaStructNova;
@@ -132,7 +132,7 @@ typedef struct nodo{
 } Nodo;
 ```
 
-Note que precisamos usar a palavra _struct para declarar ponteiros para struct nodo, pois o apelido só é definido após o corpo da struct_ nodo. Para usarmos os ponteiros de forma mais simplificada, basta fazer como o exemplo abaixo:
+Note que precisamos usar a palavra _struct _para declarar ponteiros para struct nodo, pois o apelido só é definido após o corpo da_ struct_ nodo. Para usarmos os ponteiros de forma mais simplificada, basta fazer como o exemplo abaixo:
 
 ```c
 typedef struct nodo Nodo;
@@ -151,7 +151,7 @@ struct Nodo{
 typedef int *pontInt;
 ```
 
-1. Simplifique as definições e declarações das _structs _abaixo, utilizando o _typedef_:
+1. Simplifique as definições e declarações das _structs_ abaixo, utilizando o _typedef_:
 
 ```c
 struct ponto{
