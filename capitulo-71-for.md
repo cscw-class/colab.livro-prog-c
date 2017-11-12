@@ -59,9 +59,13 @@ No terceiro exemplo, mostra a utilização do comando For, para determinar quant
    }
 ```
 
-   O usuário deve escolher quantas vezes o comando For irá repetir as suas instruções então se o usuário digitar 5, por exemplo, ele deve digitar, um nome e uma idade, cinco vezes, que serão impressas na tela. A imagem abaixo mostra um exemplo de impressão na tela:
+O usuário deve escolher quantas vezes o comando For irá repetir as suas instruções então se o usuário digitar 5, por exemplo, ele deve digitar, um nome e uma idade, cinco vezes, que serão impressas na tela. A imagem abaixo mostra um exemplo de impressão na tela:
 
 ![](/assets/exemplo_for.PNG)
+
+No quarto exemplo, mostra o cálculo de uma soma dos elementos de 1 até 10.
+
+
 
 ##### 
 
