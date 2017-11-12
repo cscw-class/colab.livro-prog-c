@@ -32,9 +32,7 @@ Neste segundo exemplo , é mostrado um código de impressão na tela do número 
      }
 ```
 
-```
      No terceiro exemplo, mostra a utilização do comando For, para determinar quantidade e vezes ele vai se repetir.
-```
 
 ```
    #include<iostream>;
