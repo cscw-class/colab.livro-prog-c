@@ -4,7 +4,7 @@ O comando For é uma estrutura de repetição. A estrutura de repetição permit
 
 ##### 
 
-##### No exemplo abaixo mostra a sintaxe básica do comando For**:**
+No exemplo abaixo mostra a sintaxe básica do comando For**:**
 
 ```
      Exemplo 1:
@@ -15,9 +15,7 @@ O comando For é uma estrutura de repetição. A estrutura de repetição permit
      }
 ```
 
- vv
-
-
+Neste segundo exemplo , é mostrado um código de impressão na tela do número 1 até 10 , utilizando o comando For.  A variável número é inicializada como um valor inteiro . Dentro do comando For,
 
 ```
     Exemplo 2:
