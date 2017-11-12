@@ -54,11 +54,9 @@ Basta seguir os passos abaixo:
 
 2- Faça um programa em C que imprima a mensagem "Segundo programa" duas vezes.
 
-
-
 **Referências:**
 
-https://pt.wikipedia.org/wiki/Dev-C%2B%2B
+ DevC++. Wikipédia, 2017. Disponível em: &lt;[https://pt.wikipedia.org/wiki/Dev-C%2B%2B](https://pt.wikipedia.org/wiki/Dev-C%2B%2B)&gt;. Acesso em: 12 nov. 2017.
 
 
 
