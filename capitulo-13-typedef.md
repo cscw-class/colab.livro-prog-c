@@ -103,7 +103,7 @@ Agora que a _struct_ minhaStruct foi definida, para declarar variáveis desse ti
 struct minhaStruct a;
 ```
 
-Podemos eliminar a utilização da palavra _struct de duas formas. Acrescentando a palavra typedef _à declaração como abaixo:
+Podemos eliminar a utilização da palavra _struct _de duas formas. Acrescentando a palavra _typedef _à declaração como abaixo:
 
 ```c
 typedef minhaStruct minhaStructNova;
