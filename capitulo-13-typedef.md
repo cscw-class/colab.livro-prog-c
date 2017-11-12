@@ -132,7 +132,7 @@ typedef struct nodo{
 } Nodo;
 ```
 
-Note que precisamos usar a palavra _struct _para declarar ponteiros para struct nodo, pois o apelido só é definido após o corpo da_ struct_ nodo. Para usarmos os ponteiros de forma mais simplificada, basta fazer como o exemplo abaixo:
+Note que precisamos usar a palavra _struct_ para declarar ponteiros para struct nodo, pois o apelido só é definido após o corpo da struct nodo. Para usarmos os ponteiros de forma mais simplificada, basta fazer como o exemplo abaixo:
 
 ```c
 typedef struct nodo Nodo;
