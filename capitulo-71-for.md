@@ -63,7 +63,9 @@ O usuário deve escolher quantas vezes o comando For irá repetir as suas instru
 
 ![](/assets/exemplo_for.PNG)
 
-No quarto exemplo, mostra o cálculo de uma soma dos elementos de 1 até 10.
+No quarto exemplo, mostra o cálculo de uma soma dos elementos de 1 até 10. E
+
+
 
 
 
