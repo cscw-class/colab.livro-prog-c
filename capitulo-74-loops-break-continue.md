@@ -61,15 +61,9 @@ return 0;
 }
 ```
 
-Assumindo que o valor informado seja 5, o programa rodará até o **case 5**, imprimirá “**Quinta**” e será encerrado. 
+Assumindo que o valor informado seja 5, o programa rodará até o **case 5**, imprimirá “**Quinta**” e será encerrado.
 
-
-
-        O comando **CONTINUE** tem função semelhante ao do BREAK \(forçar uma ação\)  porém está associado apenas às estruturas de repetição, e diferente do break, seu intuito é forçar a próxima iteração do laço a ocorrer,  ignorando qualquer instrução que venha depois dele.
-
-       No exemplo abaixo usamos um **while** para realizar a impressão dos números entre a e b, exceto o número 5.  Ao usar o comando continue após a verificação,  forçamos o programa a voltar para o início do laço \(while\), pulando  o comando de impressão, caso o valor de a seja 5.
-
-
+No exemplo abaixo usamos um **WHILE** para realizar a impressão dos números entre a e b, exceto o número 5. Ao usar o comando continue após a verificação, forçamos o programa a voltar para o início do laço \(while a&lt; b\), pulando o comando de impressão, caso o valor de a seja 5.
 
 ```c
 #include<stdio.h>
@@ -77,29 +71,29 @@ Assumindo que o valor informado seja 5, o programa rodará até o **case 5**, im
 
 int main()
 {
-	int a,b;
-	printf("Digite o valor de a:\n");
-	scanf("%d",&a);
-	printf("Digite o valor de b:\n");
-	scanf("%d",&b);
-	printf("Os numeros existentes entre eles sao:\n");
-	while(a < b){
-		a = a + 1;
-		if (a==5)
-			continue;
-		printf("%d\n",a);
-	}
+    int a,b;
+    printf("Digite o valor de a:\n");
+    scanf("%d",&a);
+    printf("Digite o valor de b:\n");
+    scanf("%d",&b);
+    printf("Os numeros existentes entre eles sao:\n");
+    while(a < b){
+        a = a + 1;
+        if (a==5)
+            continue;
+        printf("%d\n",a);
+    }
 
 system("pause");
 return 0;
 }
 ```
 
-      A impressão desse programa seria:
+```
+  A impressão desse programa seria:
+```
 
 ![](/assets/continue.png)
-
-
 
 **EXERCÍCIO**
 
