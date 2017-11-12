@@ -18,4 +18,5 @@
 * [Autores](autores.md)
 * [Lista de exercícios](lista-de-exercicios.md)
 * [Capítulo 9: Matrizes](capitulo-9-matrizes.md)
+* [Capítulo 7.4: Loops - Break ... Continue](capitulo-74-loops-break-continue.md)
 
