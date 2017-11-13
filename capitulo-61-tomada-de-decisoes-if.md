@@ -2,8 +2,6 @@
 
 ##### **Autor: **[**Pedro Teixeira Bisognin**](https://github.com/Pedroteixeirabisognin)
 
-##### 
-
 #### Introdução
 
 Muitos comandos em C contam com um teste condicional que determina o curso da ação. Uma expressão condicional chega a um valor verdadeiro ou falso. Em C, ao contrário de muitas outras linguagens, um valor verdadeiro é qualquer valor diferente de zero, incluindo números negativos. Um valor falso é 0. Esse método para verdadeiro e falso permite que uma ampla gama de rotinas sejam codificadas de forma extremamente eficiente, como você verá em breve.
@@ -42,15 +40,11 @@ Expressão para if ternário:
 
 `Condição ? verdadeiro : falso`
 
-```
-         Se a expressão é verdadeira \(algo diferente de 0\), o comando ou bloco que forma o corpo do if é executado; caso contrário, o comando ou bloco que o corpo do else \(se existir\) é executado. Lembre-se de que apenas o código associado ao if ou o código associado ao else será executado, nunca ambos.
-```
+Se a expressão é verdadeira \\(algo diferente de 0\\), o comando ou bloco que forma o corpo do if é executado; caso contrário, o comando ou bloco que o corpo do else \\(se existir\\) é executado. Lembre-se de que apenas o código associado ao if ou o código associado ao else será executado, nunca ambos.
 
 **O Else if**
 
-```
-        Também existe o operador Else if, que nada mais é do que um if que deu false e foi para outro if, exemplo:
-```
+Também existe o operador Else if, que nada mais é do que um if que deu false e foi para outro if, exemplo:
 
 Expressão Else if:
 
