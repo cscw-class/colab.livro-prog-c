@@ -6,7 +6,9 @@
 
 [http://www.cprogressivo.net/2013/03/Questoes-com-gabarito-sobre-Ponteiros-em-C.html](http://www.cprogressivo.net/2013/03/Questoes-com-gabarito-sobre-Ponteiros-em-C.html)
 
-##### Exercício 2: Quais serão os valores de x, y e p ao final do trecho de código abaixo?
+##### Exercício 2: Quais serão os valores de x, y e p ao final do trecho de código
+
+abaixo?
 
 int x, y, \*p;y = 0;
 
@@ -22,7 +24,9 @@ x = 4;
 
 \(\*p\) += x;
 
-##### Exercício 3: Os programas \(trechos de código\) abaixo possuem erros. Qual\(is\)? Como deveriam ser?
+##### Exercício 3: Os programas \(trechos de código\) abaixo possuem erros. Qual\(is\)?
+
+Como deveriam ser?
 
 a\)
 
@@ -64,17 +68,15 @@ else
 
 printf \("%s vem depois de %s no dicionário", a, b\);
 
-
-
-##### Exercício 4: Suponha que os elementos do vetor v são do tipo int e cada int ocupa 8 bytes no seu computador. Se o endereço de v\[0\] é 55000, qual o valor da expressão v + 3?
-
-
-
-##### Exercício 5: Suponha que v é um vetor. Descreva a diferença conceitual entre as expressões v\[3\] e v + 3.
+##### Exercício 4: Suponha que os elementos do vetor v são do tipo int e cada int ocupa 8 bytes no seu computador. Se o endereço de v\[0\] é 55000, qual o valor da expressão v + 3?
 
 
 
-##### Exercício 6: Qual o conteúdo do vetor a depois dos seguintes comandos: int a\[99\];for \(i = 0; i &lt; 99; ++i\) a\[i\] = 98 - i;for \(i = 0; i &lt; 99; ++i\) a\[i\] = a\[a\[i\]\]; - \(sem usar o computador\)
+##### Exercício 5: Suponha que v é um vetor. Descreva a diferença conceitual entre as expressões v\[3\] e v + 3.
+
+
+
+##### Exercício 6: Qual o conteúdo do vetor a depois dos seguintes comandos \(sem usar o computador\): int a\[99\];for \(i = 0; i &lt; 99; ++i\) a\[i\] = 98 - i;for \(i = 0; i &lt; 99; ++i\) a\[i\] = a\[a\[i\]\]; 
 
 
 
