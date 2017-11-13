@@ -61,21 +61,15 @@ Para exibir uma matriz basta utilizarmos o mesmo código, porém trocamos o coma
 
 ![](/assets/import3.png)
 
-
-
 Exemplo na prática de como funciona o preenchimento e a exibição de uma Matriz:
 
 ![](/assets/import4.png)
 
+#### Referências
 
+SCHILDT, Herbert. C Completo e Total. Terceira Edição. São Paulo. Makron _Books_ do Brasil, 1996.
 
-
-
-
-
-
-
-
+CASAVELLA, Eduardo. Matriz em C. Disponível em &lt;http://linguagemc.com.br/matriz-em-c/&gt; Acesso em 13 de Novembro 2017.
 
 
 
