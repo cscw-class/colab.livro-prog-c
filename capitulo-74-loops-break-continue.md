@@ -2,7 +2,7 @@
 
 Por Renata Machado
 
-O comando **BREAK** é geralmente associado às estruturas de repetição \([FOR](https://alexsalgado.gitbooks.io/introducao-a-programacao-em-c/content/capitulo-71-for.html), WHILE, [DO WHILE](https://alexsalgado.gitbooks.io/introducao-a-programacao-em-c/content/capitulo-7-loops-dowhile.html)\) e ao comando [SWITCH](https://alexsalgado.gitbooks.io/introducao-a-programacao-em-c/content/capitulo-62-tomada-de-decisoes-switch.html) e é utilizado para realizar uma parada imediata do bloco de comando em execução no momento de sua chamada.
+O comando** break** é geralmente associado às estruturas de repetição \([for](https://alexsalgado.gitbooks.io/introducao-a-programacao-em-c/content/capitulo-71-for.html), while, [do while](https://alexsalgado.gitbooks.io/introducao-a-programacao-em-c/content/capitulo-7-loops-dowhile.html)\) e ao comando [switch](https://alexsalgado.gitbooks.io/introducao-a-programacao-em-c/content/capitulo-62-tomada-de-decisoes-switch.html) e é utilizado para realizar uma parada imediata do bloco de comando em execução no momento de sua chamada.
 
 Em estruturas de repetição sua função é evitar que o programa continue rodando o laço após ter encontrando a informação que necessitava. Ex:
 
@@ -17,7 +17,7 @@ void busca ( Int v)
 }
 ```
 
-Já no comando **SWITCH**, sua função é evitar que o programa continue fazendo as verificações caso já tem encontrando a informação desejada:
+Já no comando **switch**, sua função é evitar que o programa continue fazendo as verificações caso já tem encontrando a informação desejada:
 
 ```c
 #include <stdio.h>
@@ -61,13 +61,15 @@ return 0;
 }
 ```
 
-Assumindo que o valor informado seja 5, o programa rodará até o **case 5**, imprimirá “**Quinta**” e será encerrado. 
+Assumindo que o valor informado seja 5, o programa rodará até o **case 5**, imprimirá “**Quinta**” e será encerrado.
 
 
 
-        O comando **CONTINUE** tem função semelhante ao do BREAK \(forçar uma ação\)  porém está associado apenas às estruturas de repetição, e diferente do break, seu intuito é forçar a próxima iteração do laço a ocorrer,  ignorando qualquer instrução que venha depois dele.
+O comando **continue** tem função semelhante ao do **break** \(forçar uma ação\) porém está associado apenas às estruturas de repetição, e diferente do break, seu intuito é forçar a próxima iteração do laço a ocorrer, ignorando qualquer instrução que venha depois dele.
 
-       No exemplo abaixo usamos um **while** para realizar a impressão dos números entre a e b, exceto o número 5.  Ao usar o comando continue após a verificação,  forçamos o programa a voltar para o início do laço \(while\), pulando  o comando de impressão, caso o valor de a seja 5.
+No exemplo abaixo usamos um while para realizar a impressão dos números entre a e b, exceto o número 5. Ao usar o comando continue após a verificação, forçamos o programa a voltar para o início do laço \(while a &lt; b\), pulando o comando de impressão, caso o valor de a seja 5.
+
+
 
 
 
@@ -77,29 +79,29 @@ Assumindo que o valor informado seja 5, o programa rodará até o **case 5**, im
 
 int main()
 {
-	int a,b;
-	printf("Digite o valor de a:\n");
-	scanf("%d",&a);
-	printf("Digite o valor de b:\n");
-	scanf("%d",&b);
-	printf("Os numeros existentes entre eles sao:\n");
-	while(a < b){
-		a = a + 1;
-		if (a==5)
-			continue;
-		printf("%d\n",a);
-	}
+    int a,b;
+    printf("Digite o valor de a:\n");
+    scanf("%d",&a);
+    printf("Digite o valor de b:\n");
+    scanf("%d",&b);
+    printf("Os numeros existentes entre eles sao:\n");
+    while(a < b){
+        a = a + 1;
+        if (a==5)
+            continue;
+        printf("%d\n",a);
+    }
 
 system("pause");
 return 0;
 }
 ```
 
-      A impressão desse programa seria:
+```
+  A impressão desse programa seria:
+```
 
 ![](/assets/continue.png)
-
-
 
 **EXERCÍCIO**
 
