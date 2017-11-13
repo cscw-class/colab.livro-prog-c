@@ -8,7 +8,7 @@ Abaixo encontramos um exemplo de uma matriz com duas dimensões m\[3\]\[4\]:
 
 ![](/assets/import.png)
 
-#### Entendendo as Matrizes
+#### 9.1 Entendendo as Matrizes
 
 Como vimos acima, as matrizes bidimensionais são definidas com dois eixos \( x e y \) onde a partir da matriz m\[3\]\[4\], pode-se obeservar que:
 
@@ -23,7 +23,7 @@ Com isso, uma vez que a matriz é bidimensional, teremos que acessar as posiçõ
 
 Obs.: Como nos vetores, as matrizes possuem índices que permitem que as posições da matriz sejam acessadas.
 
-#### Atibuindo valores a uma Matriz
+#### 9.2 Atibuindo valores a uma Matriz
 
 Para atribuir valores a uma matriz devemos buscar cada posição e a partir disso, preencher a mesma.
 
@@ -41,7 +41,7 @@ m\[0\]\[0\] = 2
 
 m\[1\]\[0\] = 5
 
-#### Preenchendo Matrizes
+#### 9.3 Preenchendo Matrizes
 
 Existem diversos métodos para o preenchimento de uma matriz, mas para isso, devemos buscar cada posição e preencher todas através dos índices que nos auxiliam.
 
@@ -55,7 +55,7 @@ Temos uma matriz 3x3 e precisamos percorrer as posições e preencher corretamen
 
 Pode-se observar as duas variáveis inteiras "i" e "j" em que "i" é utilizado para percorrer a linha e "j" é utilizado para percorrer coluna. Com isso, podemos observar também o "scanf" que é utilizado para receber o dado que preencherá as posições da matriz.
 
-#### Exibindo uma Matriz
+#### 9.4 Exibindo uma Matriz
 
 Para exibir uma matriz basta utilizarmos o mesmo código, porém trocamos o comando "scanf" para "printf", como segue o exemplo.
 
@@ -65,11 +65,9 @@ Exemplo na prática de como funciona o preenchimento e a exibição de uma Matri
 
 ![](/assets/import4.png)
 
-#### Referências
+#### 9.5 Referências
 
 SCHILDT, Herbert. C Completo e Total. Terceira Edição. São Paulo. Makron _Books_ do Brasil, 1996.
 
-CASAVELLA, Eduardo. Matriz em C. Disponível em &lt;http://linguagemc.com.br/matriz-em-c/&gt; Acesso em 13 de Novembro 2017.
-
-
+CASAVELLA, Eduardo. Matriz em C. Disponível em &lt;[http://linguagemc.com.br/matriz-em-c/&gt](http://linguagemc.com.br/matriz-em-c/&gt); Acesso em 13 de Novembro 2017.
 
