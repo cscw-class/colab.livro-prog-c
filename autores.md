@@ -10,7 +10,7 @@
 
 #### Rafael Marcílio - [Github](https://github.com/rafaelbatistamarcilio)
 
-
+#### Mariani Pereira - [Github](https://github.com/MarianiPSM)
 
 #### 
 
