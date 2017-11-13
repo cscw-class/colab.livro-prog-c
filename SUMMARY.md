@@ -11,6 +11,7 @@
 * [Capítulo 7.1: For](capitulo-71-for.md)
 * [Capítulo 7.4: Loops - Break ... Continue](capitulo-74-loops-break-continue.md)
 * [Capítulo 9: Matrizes](capitulo-9-matrizes.md)
+* [Capítulo 10: Funções](capitulo-10-funcoes.md)
 * [Capítulo 12: Struct](capitulo-12-struct.md)
 * [Capítulo 13: TypeDef](capitulo-13-typedef.md)
 * [Capítulo 14: Ponteiros](capitulo-14-ponteiros.md)
