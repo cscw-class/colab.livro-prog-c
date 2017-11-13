@@ -143,9 +143,13 @@ struct Nodo{
 };
 ```
 
-#### 1**3.4 Referências**
+#### 13.4 Exercícios
 
-\[1\] Typedef. Wikipédia, 2017. Disponível em: &lt;[https://en.wikipedia.org/wiki/Typedef](https://en.wikipedia.org/wiki/Typedef)&gt;. Acesso em: 10 nov. 2017.
+Para treinar a utilização do typedef, acesse a lista de exercícios desse capítulo em [Lista de exercícios.](https://alexsalgado.gitbooks.io/introducao-a-programacao-em-c/content/lista-de-exercicios.html)
 
-\[2\] ARAÚJO, Aldrovando Luís Azeredo. Curso de C da UFMG – Aula 11 – Tipos de dados definidos pelo Usuário: o comando typedef. CPDEE/UFMG, 1999. Disponível em: &lt;[http://mtm.ufsc.br/~azeredo/cursoC/aulas/cb60.html](http://mtm.ufsc.br/~azeredo/cursoC/aulas/cb60.html)&gt;. Acesso em: 10 nov. 2017.
+#### 1**3.5 Referências**
+
+Typedef. **Wikipédia**, 2017. Disponível em: &lt;[https://en.wikipedia.org/wiki/Typedef](https://en.wikipedia.org/wiki/Typedef)&gt;. Acesso em: 10 nov. 2017.
+
+ARAÚJO, Aldrovando Luís Azeredo. Curso de C da UFMG – Aula 11 – Tipos de dados definidos pelo Usuário: o comando typedef. **CPDEE/UFMG**, 1999. Disponível em: &lt;[http://mtm.ufsc.br/~azeredo/cursoC/aulas/cb60.html](http://mtm.ufsc.br/~azeredo/cursoC/aulas/cb60.html)&gt;. Acesso em: 10 nov. 2017.
 
