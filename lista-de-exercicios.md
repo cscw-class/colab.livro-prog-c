@@ -2,13 +2,13 @@
 
 ## Capítulo 13 - Typedef
 
-1. Considerando a definição abaixo, como seria a declaração das variáveis p1 do tipo int\* e p2 do tipo int\*\*?
+13.1 Considerando a definição abaixo, como seria a declaração das variáveis p1 do tipo int\* e p2 do tipo int\*\*?
 
 ```c
 typedef int *pontInt;
 ```
 
-2. Simplifique as definições e declarações das _structs_ abaixo, utilizando o _typedef_:
+13.2. Simplifique as definições e declarações das _structs_ abaixo, utilizando o _typedef_:
 
 ```c
 struct ponto{
