@@ -1,5 +1,11 @@
 # Lista de Exercícios, por capítulos.
 
+## Capítulo 11 - Strcmp e Strcpy
+
+11.1  Construa um programa em C que leia quatro nomes fornecidas pelo usuário através da  entrada padrão e os salve, garantindo que  somente os nomes que não são repetidos serão salvos. 
+
+11.2  Seja o código abaixo que recebe uma string e devolve uma cópia da string com as letras minúsculas transformadas em maiúsculas.
+
 ## Capítulo 13 - Typedef
 
 13.1 Considerando a definição abaixo, como seria a declaração das variáveis p1 do tipo int\* e p2 do tipo int\*\*?
