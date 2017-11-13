@@ -2,7 +2,7 @@
 
 ## Criação de variáveis e tipos de dados
 
-###### Autor: 
+###### Autor: [Felipe Prado](https://github.com/fpterrific)
 
 ---
 
