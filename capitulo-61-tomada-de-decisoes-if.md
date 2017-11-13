@@ -10,7 +10,7 @@ Muitos comandos em C contam com um teste condicional que determina o curso da a�
 
 #### COMANDOS DE SELEÇÃO
 
-C suporta dois tipos de comandos de seleção: \*\*if \*\*e \*\*switch\*\*. Além disso o operador "\*\*?\*\*"\\(também conhecido como if ternário\\) é uma alternativa ao if em certas circunstâncias. Onde o comando pode ser único, um bloco de comandos ou nada\\( no caso de comandos vazios\\). A clasula else é opcional.
+C suporta dois tipos de comandos de seleção: **if **e **switch**. Além disso o operador "**?**"\\(também conhecido como if ternário\\) é uma alternativa ao if em certas circunstâncias. Onde o comando pode ser único, um bloco de comandos ou nada\\( no caso de comandos vazios\\). A clasula else é opcional.
 
 Expressão um único comando:
 
@@ -43,13 +43,13 @@ Expressão para if ternário:
 `Condição ? verdadeiro : falso`
 
 ```
-         Se a expressão é verdadeira \(algo diferente de 0\), o comando ou bloco que forma o corpo do if é executado; caso contrário, o comando ou bloco que o corpo do else \(se existir\) é executado. Lembre-se de que apenas o código associado ao if ou o código associado ao else será executado, nunca ambos.  
+         Se a expressão é verdadeira \(algo diferente de 0\), o comando ou bloco que forma o corpo do if é executado; caso contrário, o comando ou bloco que o corpo do else \(se existir\) é executado. Lembre-se de que apenas o código associado ao if ou o código associado ao else será executado, nunca ambos.
 ```
 
 **O Else if**
 
 ```
-        Também existe o operador Else if, que nada mais é do que um if que deu false e foi para outro if, exemplo: 
+        Também existe o operador Else if, que nada mais é do que um if que deu false e foi para outro if, exemplo:
 ```
 
 Expressão Else if:
