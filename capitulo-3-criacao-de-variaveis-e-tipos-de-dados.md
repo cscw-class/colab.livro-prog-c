@@ -13,5 +13,20 @@ int numero
 char letra
 ```
 
-Variáveis são partes reservadas na memória do programa que são utilizadas para guardar informações.
+Variáveis são partes reservadas na memória do programa que são utilizadas para guardar informações. Elas pode servir, tanto para cálculos,
+
+```
+int numero1;
+int nuemro2;
+int recebesoma;
+recebesoma = numero1 + numero2;
+```
+
+como para guardar textos e qualquer outro tipo de informação.
+```
+String nome;
+nome = "José";
+```
+
+
 
