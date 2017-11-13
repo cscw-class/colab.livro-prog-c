@@ -143,31 +143,7 @@ struct Nodo{
 };
 ```
 
-#### 1**3.4 Exercícios**
-
-1. Considerando a definição abaixo, como seria a declaração das variáveis p1 do tipo int\* e p2 do tipo int\*\*?
-
-```c
-typedef int *pontInt;
-```
-
-1. Simplifique as definições e declarações das _structs_ abaixo, utilizando o _typedef_:
-
-```c
-struct ponto{
-    int x;
-    int y;
-};
-struct linha{
-    struct ponto p1;
-    struct ponto p2;
-    int distancia;
-};
-
-struct linha l1;
-```
-
-#### 1**3.5 Referências**
+#### 1**3.4 Referências**
 
 \[1\] Typedef. Wikipédia, 2017. Disponível em: &lt;[https://en.wikipedia.org/wiki/Typedef](https://en.wikipedia.org/wiki/Typedef)&gt;. Acesso em: 10 nov. 2017.
 
