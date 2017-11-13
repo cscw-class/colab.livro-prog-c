@@ -20,4 +20,5 @@
 * [Autores](autores.md)
 * [Lista de exercícios](lista-de-exercicios.md)
 * [Capítulo 9: Matrizes](capitulo-9-matrizes.md)
+* [Capítulo 11 - Strcmp e Strcpy](capitulo-11-strcmp-e-strcpy.md)
 
