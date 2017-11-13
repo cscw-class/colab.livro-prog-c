@@ -58,5 +58,15 @@ int main ()
 }
 ```
 
+**Referências**:
+
+http://www.facom.ufu.br/~madriana/PP/TP6.pdf
+
+http://mtm.ufsc.br/~azeredo/cursoC/aulas/c520.html
+
+http://linguagemc.com.br/a-biblioteca-string-h/
+
+
+
 
 
