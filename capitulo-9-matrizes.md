@@ -61,13 +61,17 @@ Para exibir uma matriz basta utilizarmos o mesmo código, porém trocamos o coma
 
 ![](/assets/import3.png)
 
-Exemplo na prática de como funciona o preenchimento e a exibição de uma Matriz:
+#### 9.5 Exercício
+
+A partir do que foi apresentado, construa um único algoritmo que preencha e exiba as informações de uma matriz.
+
+##### Resposta
 
 ![](/assets/import4.png)
 
-#### 9.5 Referências
+#### 9.6 Referências
 
 SCHILDT, Herbert. C Completo e Total. Terceira Edição. São Paulo. Makron _Books_ do Brasil, 1996.
 
-CASAVELLA, Eduardo. Matriz em C. Disponível em &lt;[http://linguagemc.com.br/matriz-em-c/&gt](http://linguagemc.com.br/matriz-em-c/&gt); Acesso em 13 de Novembro 2017.
+CASAVELLA, Eduardo. Matriz em C. Disponível em &lt;[http://linguagemc.com.br/matriz-em-c/&gt;](http://linguagemc.com.br/matriz-em-c/&gt); Acesso em 13 de Novembro 2017.
 
