@@ -23,9 +23,7 @@ Com isso, uma vez que a matriz é bidimensional, teremos que acessar as posiçõ
 
 Obs.: Como nos vetores, as matrizes possuem índices que permitem que as posições da matriz sejam acessadas.
 
-
-
-####  Atibuindo valores a uma Matriz
+#### Atibuindo valores a uma Matriz
 
 Para atribuir valores a uma matriz devemos buscar cada posição e a partir disso, preencher a mesma.
 
@@ -43,35 +41,31 @@ m\[0\]\[0\] = 2
 
 m\[1\]\[0\] = 5
 
-
-
 #### Preenchendo Matrizes
 
 Existem diversos métodos para o preenchimento de uma matriz, mas para isso, devemos buscar cada posição e preencher todas através dos índices que nos auxiliam.
 
 Abaixo temos um método de preenchimento de matrizes em que é usado duas estruturas de repetição "for" e duas variáveis do tipo "int" tanto para linha quanto para coluna.
 
-Exemplo
+Exemplo:
+
+Temos uma matriz 3x3 e precisamos percorrer as posições e preencher corretamenta.
+
+![](/assets/import2.png)
+
+Pode-se observar as duas variáveis inteiras "i" e "j" em que "i" é utilizado para percorrer a linha e "j" é utilizado para percorrer coluna. Com isso, podemos observar também o "scanf" que é utilizado para receber o dado que preencherá as posições da matriz.
+
+#### Exibindo uma Matriz
+
+Para exibir uma matriz basta utilizarmos o mesmo código, porém trocamos o comando "scanf" para "printf", como segue o exemplo.
+
+![](/assets/import3.png)
 
 
 
+Exemplo na prática de como funciona o preenchimento e a exibição de uma Matriz:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](/assets/import4.png)
 
 
 
