@@ -15,7 +15,7 @@ _Exemplo:_
 > if \(arq == NULL\){
 >
 > ```c
-> printf\("Problemas na abertura do arquivo\n"\);
+> printf("Problemas na abertura do arquivo\n");
 > system("pause");
 > exit(1);
 > ```
@@ -58,5 +58,7 @@ _Exemplo:_
 >
 > }
 
+Exercício 1:
 
+Crie um arquivo de texto, mude seu formato para **.bin**, depois leia-o em C.
 
