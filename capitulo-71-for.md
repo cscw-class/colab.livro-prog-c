@@ -91,11 +91,9 @@ No quarto exemplo, mostra o cálculo de uma soma dos elementos de 1 até 10.
 
 ##### Referências:
 
-O comando for em C, Disponível em: &lt;http://linguagemc.com.br/a-estrutura-de-repeticao-for-em-c/&gt;. Acesso em 12/11.
+O comando for em C, Disponível em: &lt;[http://linguagemc.com.br/a-estrutura-de-repeticao-for-em-c/&gt](http://linguagemc.com.br/a-estrutura-de-repeticao-for-em-c/&gt);. Acesso em 12/11.
 
-Estrutura de repetição: C++, Disponível em: &lt;https://www.devmedia.com.br/estrutura-de-repeticao-c/24121&gt;.Acesso em: 12/11
+Estrutura de repetição C++, Disponível em: &lt;[https://www.devmedia.com.br/estrutura-de-repeticao-c/24121&gt;.  ](https://www.devmedia.com.br/estrutura-de-repeticao-c/24121>.Acesso)Acesso em 12/11.
 
-Comando For: - Java, C++, e C\#, Disponível em: https://desenvolvimentoaberto.org/2014/01/30/comando-for-java-c-e-c/&gt; .Acesso em: 12/11
-
-
+Comando For - Java, C++, e C\#, Disponível em: &lt;[https://desenvolvimentoaberto.org/2014/01/30/comando-for-java-c-e-c/&g](https://desenvolvimentoaberto.org/2014/01/30/comando-for-java-c-e-c/&gt)t&gt; Acesso em: 12/11.
 
