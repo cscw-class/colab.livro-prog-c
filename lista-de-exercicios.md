@@ -54,8 +54,6 @@
 
 ## Capítulo 7.4 – Break .. Continue
 
-
-
 1 - Usando os comandos **break** e **continue**, crie um programa que leia um número e verifique se o mesmo faz parte de um menu. Em caso positivo, o programa deve imprimir a mensagem correspondente ao número informado. Caso não faça, o programa deve imprimir um aviso.
 
 ## Capítulo 8: Vetores
@@ -343,9 +341,7 @@ d\) cout &lt;&lt; \*\(p+1\);
 
 ## Capítulo 15.2 - Arquivo de Texto - Gravação
 
-1- Escreva um programa que peça números decimais ao usuário, até que ele digita 0.
+1- Escreva um programa que peça números decimais ao usuário, até que ele digita 0.
 
 2- Salve todos os números digitados em um arquivo chamado "dados.txt", que mostra a média desses números no final do arquivo.
-
-
 
