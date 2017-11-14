@@ -69,4 +69,24 @@ Em C, existem cinco tipos, chamados primitivos, de dados:
 
 Com exceção do void (que é mais utilizado para desenvolver funções que nada retornam ou que nada recebem, como será visto mais a frente), todos os outros tipos são capazes de guardar informações.
 
-O tipo char é utilizado para guardar um caractere
+* O tipo char é utilizado para guardar um caractere:
+```c
+char letra;
+letra = "I";
+```
+ * Lembre-se que, ao atribuir valores a uma variável caractere, o valor deve estar sempre entre aspas (" ").
+ 
+
+* O tipo int é utilizado para guardar números inteiros:
+```c
+int idade;
+idade = 29;
+```
+
+* O tipo float é utilizado para guardar números reais:
+```c
+float nota;
+nota = 7.1;
+```
+* Lembre-se que, diferente do sistema métrico, que utilizamos para atribuir valores decimais, em C, números reais devem ter sua parte decimal precedida de um ponto (.) e não uma vírgula.
+
