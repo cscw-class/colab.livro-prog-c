@@ -21,6 +21,7 @@
 * [Capítulo 13: TypeDef](capitulo-13-typedef.md)
 * [Capítulo 14: Ponteiros](capitulo-14-ponteiros.md)
 * [Capitulo 15: Leitura de Arquivo Texto](capitulo-15-leitura-de-arquivo-texto.md)
+* [Capítulo 15.2: Arquivo de Texto - Gravação](capitulo-152-arquivo-de-texto-gravacao.md)
 * [Capitulo 16.1: Arquivo Binário - Leitura](161-arquivo-binario-leitura.md)
 * [Autores](autores.md)
 * [Lista de exercícios](lista-de-exercicios.md)
