@@ -28,6 +28,16 @@
 
 2 - Construa em  C uma mini calculadora utilizando Switch Case, onde o usuário deve selecionar se deseja fazer Soma, Subtração, Multiplicação ou Divisão e pedir ao usuário para inserir dois valores.
 
+## Capítulo 7.2 - Loops - do..while
+
+#### Exercícios
+
+1- some e imprima a soma de números entre -1000 e 1000 de uma sequencia crescente até que a soma dos dois últimos termos seja igual ao dobro do termo atual. Suponha que o usuário só entrará com números em sequência crescente.
+
+2 -Escreva um programa que pergunte ao usuário quantos alunos tem na sala dele. Em seguida, através de um laço while, pede ao usuário para que entre com as notas de todos os alunos da sala, um por vez. Por fim, o programa deve mostrar a média, aritmética, da turma.
+
+3- Escreva um programa em C que solicita 10 números ao usuário, através de um laço while, e ao final mostre os dois maiores números digitados pelo usuário.
+
 ## Capítulo 8: Vetores
 
 1 - Crie um vetor do tipo **float **chamado **notas** de 3 posições que possuirá os seguintes valores: \_9.0, 10.0 e 8.5
@@ -98,7 +108,7 @@ OBS:
  b\) Caso alguém não conheça o procedimento para a multiplicação de matrizes, segue aqui alguma orientação. Suponha as matrizes A\(mXn\)
 
 ```
-\| a11  a12 ... a1n \|  
+\| a11  a12 ... a1n \|
 ```
 
 A = \| a21  a22 ... a2n \|  
@@ -108,7 +118,7 @@ A = \| a21  a22 ... a2n \|
 e B\(nXt\)
 
 ```
-\| b11  b12 ... b1t \|  
+\| b11  b12 ... b1t \|
 ```
 
 B = \| b21  b22 ... b2t \|  
