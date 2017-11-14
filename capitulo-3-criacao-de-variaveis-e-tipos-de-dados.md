@@ -44,10 +44,12 @@ Exemplo incorreto:
 
 ```c
 int 1;
-
 ```
 
 ###Tipos de dados
 Em C, existem cinco tipos, chamados primitivos, de dados:
 ``char, int, float, double e void``
+
 Com exceção do void (que é mais utilizado para desenvolver funções que nada retornam ou que nada recebem, como será visto mais a frente), todos os outros tipos são capazes de guardar informações.
+
+O tipo char é utilizado para guardar um caractere
