@@ -1,5 +1,7 @@
 # Matrizes
 
+_**Por Márcio Mota**_
+
 A partir do que foi visto no capítulo anterior, as matrizes são como vetores, porém multidimensionais. A forma mais comum de matrizes multidimensionais são as bidimensionais, que na linguagem C vemos da seguinte forma no momento de sua declaração:
 
 int m\[x\]\[y\];
