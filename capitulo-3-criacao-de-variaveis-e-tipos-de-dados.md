@@ -18,16 +18,12 @@ Variáveis são partes reservadas na memória do programa que são utilizadas pa
 
 ```c
 int numero1;
-int nuemro2;
-int recebesoma;
-recebesoma = numero1 + numero2;
 ```
 
 como para guardar textos e outros tipos de informação.
 
 ```c
 char letra;
-letra = "C";
 ```
 
 ###Declaração de variáveis
@@ -45,6 +41,8 @@ Exemplo incorreto:
 ```c
 int 1;
 ```
+
+Podemos atribuir valores às va
 
 ###Tipos de dados
 Em C, existem cinco tipos, chamados primitivos, de dados:
