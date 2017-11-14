@@ -1,4 +1,4 @@
-# Capítulo 9: Matrizes Dinâmicas
+# Capítulo 9.1: Matrizes Dinâmicas
 
 ##### **Por Jordan Mendonça Costa**
 
@@ -164,11 +164,7 @@ Esse código é muito semelhante ao anterior, mas as operações de gerenciament
 
 ## Referências:
 
-curso de C. Disponível em: &lt;http://www.pucsp.br/~so-comp/cursoc/aulas/ca70.html\#cA71&gt; Acessado em: 14.Nov.2017
+curso de C. Disponível em: &lt;[http://www.pucsp.br/~so-comp/cursoc/aulas/ca70.html\#cA71&gt](http://www.pucsp.br/~so-comp/cursoc/aulas/ca70.html#cA71&gt); Acessado em: 14.Nov.2017
 
-CRIVELARI, Bruno. Ponto V - Matrizes Dinâmicas. Disponível em &lt;http://www.pontov.com.br/site/cpp/46-conceitos-basicos/57-matrizes-dinamicas&gt;  Acessado em: 14.Nov.2017
-
-
-
-
+CRIVELARI, Bruno. Ponto V - Matrizes Dinâmicas. Disponível em &lt;[http://www.pontov.com.br/site/cpp/46-conceitos-basicos/57-matrizes-dinamicas&gt](http://www.pontov.com.br/site/cpp/46-conceitos-basicos/57-matrizes-dinamicas&gt);  Acessado em: 14.Nov.2017
 
