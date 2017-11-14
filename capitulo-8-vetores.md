@@ -1,4 +1,4 @@
-1. # Vetores
+# Capítulo 8: Vetores
 
 ###### Por Eduardo Gomes - [Github](https://github.com/elgsantos)
 
@@ -142,7 +142,8 @@ for(i=0; i<5; i++)
     if (vet[i] > maior)
         maior = vet[i];
 
-printf("O maior elemento é %d\n",maior); //deverá ser imprimido o valor 4 caso o vetor seja igual ao do exercício 4
+printf("O maior elemento é %d\n",maior); 
+/*deverá ser imprimido o valor 4 caso o vetor seja igual ao do exercício 4*/
 ```
 
 
