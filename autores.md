@@ -30,7 +30,7 @@
 
 #### Renata Machado Cardoso -[ Github](https://github.com/reehmachado)
 
-#### 
+#### Matheus Simões Felix da Silva - [Github](https://github.com/MathSimoes)
 
 
 
