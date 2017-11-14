@@ -22,7 +22,7 @@ _Exemplo:_
 >
 > }
 
-O primeiro parâmetro é o nome do arquivo, o segundo a forma de abertura, sendo "wb" abertura para gravação de arquivos do binário e "rb" para leitura.
+O primeiro parâmetro é o nome do arquivo, o segundo a forma de abertura, sendo "wb" abertura para gravação de arquivos do tipo binário e "rb" para leitura.
 
 #### 16.1.2 - Leitura de arquivo binário
 
@@ -38,7 +38,7 @@ _Exemplo:_
 
 > \#include &lt;stdio.h&gt;
 >
->  \#include &lt;stdlib.h&gt;
+> \#include &lt;stdlib.h&gt;
 >
 > int main\(\) {
 >
