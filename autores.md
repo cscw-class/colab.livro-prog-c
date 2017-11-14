@@ -4,6 +4,8 @@
 
 #### Caio Boechat - [Github](https://github.com/caioboechat)
 
+#### Diego Maciel - [Github](https://github.com/diegoamorim)
+
 #### Eduardo Gomes - [Github](https://github.com/elgsantos)
 
 #### Eyre Brasil Montevecchi - [Github](https://github.com/eyrebrasil)
