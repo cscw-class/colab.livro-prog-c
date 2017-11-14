@@ -10,6 +10,8 @@
 
 #### Eyre Brasil Montevecchi - [Github](https://github.com/eyrebrasil)
 
+#### Gilberto Roque Sonoda - [Github](https://github.com/grsonoda)
+
 #### Ian Saud - [Github](https://github.com/IanSaud)
 
 #### Iann Zukowski - [Github](https://github.com/izukowski)
