@@ -13,6 +13,7 @@
 * [Capítulo 7.4: Loops - Break ... Continue](capitulo-74-loops-break-continue.md)
 * [Capítulo 8: Vetores](capitulo-8-vetores.md)
 * [Capítulo 9: Matrizes](capitulo-9-matrizes.md)
+* [Capítulo 9.1: Matrizes Dinâmicas](matrizes-alocacao-dinamica.md)
 * Capítulo 6.1: Tomada de decisões - If
 * [Capítulo 12: Struct](capitulo-12-struct.md)
 * [Capítulo 13: TypeDef](capitulo-13-typedef.md)

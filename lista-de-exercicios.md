@@ -20,76 +20,6 @@
 
 3.4 - É possível utilizar qualquer nome para denominar uma variável? Por que?
 
-## Capítulo 7 - Loops - While e Do-While
-
-Exercício 1 - Escreva um programa que lê o tamanho do lado de um quadrado e imprime um quadrado daquele tamanho com asteriscos. Seu programa deve funcionar para quadrados com lados de todos os tamanhos entre 1 e 20.
-
-Por exemplo, para lado igual a 5:
-
-\*\*\*\*\*
-
-\*\*\*\*\*
-
-\*\*\*\*\*
-
-\*\*\*\*\*
-
-\*\*\*\*\*
-
-Dica:
-
-Note que sempre existirão 'lado \* lado' asteriscos. Vamos usar o while para imprimir todos os 'lado\*lado' asteriscos.
-
-Note também que a cada 'lado' asteriscos, ocorre uma quebra da linha.
-
-No exemplo do lado=5: quando chegamos no asterisco de número 5, não imprimimos somente '\*', mas '\*\n'
-
-O mesmo para o asterisco de número 10, pro de número 15, ...e pro de número 20
-
-Ou seja, após o asterisco múltiplo de 5 ser impresso na tela, devemos colocar uma quebra da linha.
-
-Como chamamos números que são múltiplos de 'lado'? Ora, pelo módulo \(ou resto da divisão\).
-
-
-
-
-
-Exercício 2 -  **Escreva um programa que lê o tamanho do lado de um quadrado e imprime um quadrado daquele tamanho com asteriscos e espaços em branco. Seu programa deve funcionar para quadrados com lados de todos os tamanhos entre 1 e 20.**
-
-**Para lado igual a 5:**
-
-**\*\*\*\*\***
-
-**\*    \***
-
-**\*    \***
-
-**\*    \***
-
-**\*\*\*\*\***
-
-Dica: 
-
-Primeiro vamos imprimir a primeira linha, que tem 'lado' asteriscos com um while.
-
-Fazemos o mesmo para a última linha.
-
-Agora vamos imprimir as linhas que não são completamente preenchidas de asteriscos, as que tem espaços em branco.
-
-Note que essas linhas possuem um asterisco na primeira e na última posição.
-
-Antes nós imprimíamos lado\*lado caracteres. Agora, como tiramos duas linhas, vamos imprimir só 'lado\*\(lado-2\)' linhas.
-
-Se o caractere que formos imprimir for o primeiro da fila, imprimimos '\*'.
-
-Para sabermos isso, basta fazer um teste para ver se o contador \(que vai de 1 até lado\*\(lado-2\)\) deixa resto 1 quando dividido por 'lado'.
-
-Se for o último asterisco da linha, devemos imprimir '\*\n', pois irá pular de linha.
-
-Para detectar esse último asterisco, basta ver que é o caractere que, quando dividido por 'lado', deixa resto 0.
-
-Se não for o primeiro nem o último caractere, imprimimos um espaço em branco: ' '
-
 ## 
 
 ## Capítulo 8: Vetores
@@ -147,6 +77,39 @@ for(i=0; i<5; i++)
 printf("O maior elemento é %d\n",maior); // o \n foi utilizado apenas para pular linha
 /*deverá ser imprimido o valor 4 caso o vetor seja igual ao do exercício 4*/
 ```
+
+## Capítulo 9.1- Matrizes Dinâmicas
+
+Faca um programa que multiplique duas matrizes. O programa devera' estar  estruturado de maneira que:  
+ 1- o usuario forneca as dimensoes das matrizes \(teste se as dimensoes sao compativeis,  isto e', se as matrizes podem ser multiplicadas\);  
+ 2- as matrizes sejam alocadas dinamicamente \(voce pode usar a funcao vista nesta pagina para  isto\);  
+ 3- as matrizes sejam lidas pelo teclado \(faca uma funcao para leitura das matrizes\);  
+ 4- as matrizes sejam, entao, multiplicadas \(faca uma funcao para a multiplicacao\);  
+ 5- a matriz resultante seja apresentada em tela \(faca uma funcao para apresentar a matriz na tela\).
+
+OBS:  
+ a\) Faca, tambem, alocacao dinamica da matriz resultante.  
+ b\) Caso alguém não conheça o procedimento para a multiplicação de matrizes, segue aqui alguma orientação. Suponha as matrizes A\(mXn\)
+
+    \| a11  a12 ... a1n \|  
+A = \| a21  a22 ... a2n \|  
+    \|  :               \|  
+    \| am1  am2 ... amn \|
+
+e B\(nXt\)
+
+    \| b11  b12 ... b1t \|  
+B = \| b21  b22 ... b2t \|  
+    \|  :               \|  
+    \| bn1  bn2 ... bnt \|
+
+O elemento ij da matriz C é resultante da multiplicação da linha i de A pela coluna j de B. Portanto, a matriz C \(mXt\) = A\*B será da seguinte forma:
+
+C =  
+\| a11\*b11 +a12\*b21 + ... +a1n\*bn1   a11\*b12 +a12\*b22 + ... + a1n\*bn2  ...   a11+b1t +a12\*b2t + ... + a1n\*bnt \|  
+\| a21\*b11 +a22\*b21 + ... +a2n\*bn1   a21\*b12 +a22\*b22 + ... + a2n\*bn2  ...   a21+b1t +a22\*b2t + ... + a2n\*bnt \|  
+\|                                   ...                                                   ...                   ...                                    ...                                    \|  
+\| am1\*b11 +am2\*b21 +...+amn\*bn1   am1\*b12 +am2\*b22 +...+ amn\*bn2  ...   am1+b1t +am2\*b2t +...+amn\*bnt \|
 
 ## Capítulo 10 - Funções
 
