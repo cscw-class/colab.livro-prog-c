@@ -142,7 +142,7 @@ for(i=0; i<5; i++)
     if (vet[i] > maior)
         maior = vet[i];
 
-printf("O maior elemento é %d\n",maior); 
+printf("O maior elemento é %d\n",maior); // o \n foi utilizado apenas para pular linha
 /*deverá ser imprimido o valor 4 caso o vetor seja igual ao do exercício 4*/
 ```
 
