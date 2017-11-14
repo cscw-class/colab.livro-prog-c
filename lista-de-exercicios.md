@@ -20,7 +20,13 @@
 
 3.4 - É possível utilizar qualquer nome para denominar uma variável? Por que?
 
-## 
+## Capítulo 6.2 - Tomadas de Decisões \(Switch\)
+
+#### Exercício
+
+1- Utilizando a ferramenta switch case, crie um programa que diga receba do usuario um numero de 1 a 12 e o programa deve retornar ao usuario qual nome do mes. Exemplo: 1 = Janeiro, 2 = Fevereiro;
+
+2 - Construa em  C uma mini calculadora utilizando Switch Case, onde o usuário deve selecionar se deseja fazer Soma, Subtração, Multiplicação ou Divisão e pedir ao usuário para inserir dois valores.
 
 ## Capítulo 8: Vetores
 
@@ -80,9 +86,9 @@ printf("O maior elemento é %d\n",maior); // o \n foi utilizado apenas para pula
 
 ## Capítulo 9.1- Matrizes Dinâmicas
 
-Faca um programa que multiplique duas matrizes. O programa devera' estar  estruturado de maneira que:  
- 1- o usuario forneca as dimensoes das matrizes \(teste se as dimensoes sao compativeis,  isto e', se as matrizes podem ser multiplicadas\);  
- 2- as matrizes sejam alocadas dinamicamente \(voce pode usar a funcao vista nesta pagina para  isto\);  
+Faca um programa que multiplique duas matrizes. O programa devera' estar  estruturado de maneira que:  
+ 1- o usuario forneca as dimensoes das matrizes \(teste se as dimensoes sao compativeis,  isto e', se as matrizes podem ser multiplicadas\);  
+ 2- as matrizes sejam alocadas dinamicamente \(voce pode usar a funcao vista nesta pagina para  isto\);  
  3- as matrizes sejam lidas pelo teclado \(faca uma funcao para leitura das matrizes\);  
  4- as matrizes sejam, entao, multiplicadas \(faca uma funcao para a multiplicacao\);  
  5- a matriz resultante seja apresentada em tela \(faca uma funcao para apresentar a matriz na tela\).
@@ -91,25 +97,31 @@ OBS:
  a\) Faca, tambem, alocacao dinamica da matriz resultante.  
  b\) Caso alguém não conheça o procedimento para a multiplicação de matrizes, segue aqui alguma orientação. Suponha as matrizes A\(mXn\)
 
-    \| a11  a12 ... a1n \|  
-A = \| a21  a22 ... a2n \|  
-    \|  :               \|  
-    \| am1  am2 ... amn \|
+```
+\| a11  a12 ... a1n \|  
+```
+
+A = \| a21  a22 ... a2n \|  
+    \|  :               \|  
+    \| am1  am2 ... amn \|
 
 e B\(nXt\)
 
-    \| b11  b12 ... b1t \|  
-B = \| b21  b22 ... b2t \|  
-    \|  :               \|  
-    \| bn1  bn2 ... bnt \|
+```
+\| b11  b12 ... b1t \|  
+```
+
+B = \| b21  b22 ... b2t \|  
+    \|  :               \|  
+    \| bn1  bn2 ... bnt \|
 
 O elemento ij da matriz C é resultante da multiplicação da linha i de A pela coluna j de B. Portanto, a matriz C \(mXt\) = A\*B será da seguinte forma:
 
 C =  
-\| a11\*b11 +a12\*b21 + ... +a1n\*bn1   a11\*b12 +a12\*b22 + ... + a1n\*bn2  ...   a11+b1t +a12\*b2t + ... + a1n\*bnt \|  
-\| a21\*b11 +a22\*b21 + ... +a2n\*bn1   a21\*b12 +a22\*b22 + ... + a2n\*bn2  ...   a21+b1t +a22\*b2t + ... + a2n\*bnt \|  
-\|                                   ...                                                   ...                   ...                                    ...                                    \|  
-\| am1\*b11 +am2\*b21 +...+amn\*bn1   am1\*b12 +am2\*b22 +...+ amn\*bn2  ...   am1+b1t +am2\*b2t +...+amn\*bnt \|
+\| a11\*b11 +a12\*b21 + ... +a1n\*bn1   a11\*b12 +a12\*b22 + ... + a1n\*bn2  ...   a11+b1t +a12\*b2t + ... + a1n\*bnt \|  
+\| a21\*b11 +a22\*b21 + ... +a2n\*bn1   a21\*b12 +a22\*b22 + ... + a2n\*bn2  ...   a21+b1t +a22\*b2t + ... + a2n\*bnt \|  
+\|                                   ...                                                   ...                   ...                                    ...                                    \|  
+\| am1\*b11 +am2\*b21 +...+amn\*bn1   am1\*b12 +am2\*b22 +...+ amn\*bn2  ...   am1+b1t +am2\*b2t +...+amn\*bnt \|
 
 ## Capítulo 10 - Funções
 
