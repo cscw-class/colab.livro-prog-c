@@ -28,6 +28,17 @@
 
 2- Faca um programa em C que imprima o valor de uma variável do tipo float
 
+
+
+# **Capítulo 5.2 - Entrada e saida de dados scanf**
+
+1- Escreva um programa em C que receba um inteiro e diga se ele é par ou impar.
+
+2- Crie um programa em C que peça dois números decimais ao usuário e mostre o produto deles.
+
+  
+
+
 ## Capítulo 6.2 - Tomadas de Decisões \(Switch\)
 
 #### Exercício
@@ -44,8 +55,7 @@
 
 2 -Escreva um programa que pergunte ao usuário quantos alunos tem na sala dele. Em seguida, através de um laço while, pede ao usuário para que entre com as notas de todos os alunos da sala, um por vez. Por fim, o programa deve mostrar a média, aritmética, da turma.
 
-3- Escreva um programa em C que solicita 10 números ao usuário, através de um laço while, e ao final mostre os dois maiores números digitados pelo usuário.  
-	
+3- Escreva um programa em C que solicita 10 números ao usuário, através de um laço while, e ao final mostre os dois maiores números digitados pelo usuário.
 
 ## Capítulo 7.4 – Break .. Continue
 
