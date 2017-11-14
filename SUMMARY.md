@@ -8,7 +8,7 @@
 * [Capítulo 5.2: Entrada e Saída de Dados:scanf\(....\)](capitulo-52-entrada-e-saida-de-dadosscanf.md)
 * [Capítulo 6.1: Tomada de decisões - If](capitulo-61-tomada-de-decisoes-if.md)
 * [Capitulo 6.2: Tomada de Decisões - Switch](capitulo-62-tomada-de-decisoes-switch.md)
-* [Capítulo 7: Loops - do..while](capitulo-7-loops-dowhile.md)
+* [Capítulo 7 : Loops While e Do-While](capitulo-7-loops-dowhile.md)
 * [Capítulo 7.1: For](capitulo-71-for.md)
 * [Capítulo 7.4: Loops - Break ... Continue](capitulo-74-loops-break-continue.md)
 * [Capítulo 8: Vetores](capitulo-8-vetores.md)
