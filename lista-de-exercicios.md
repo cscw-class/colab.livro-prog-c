@@ -6,7 +6,14 @@
 
 2.2- Faça um programa em C que imprima a mensagem "Segundo programa" duas vezes.
 
-## Capítuloi 3 - Criação
+## Capítulo 3 - Criação de variáveis e tipos de dados
+
+3.1 - Dos exemplos abaixo, quais estão corretos em relação a declaração de variáveis:
+* int 123
+* char caractere
+* double Um
+
+3.2 - Como atribuir valores às variáveis?
 
 ## Capítulo 11 - Strcmp e Strcpy
 
