@@ -27,15 +27,15 @@ uma certa condição for
 é a seguinte:
 
 > > while \(condição\)  
-> >    
+> >   
 > > {  
-> >    
+> >   
 > > // comandos a serem repetidos  
-> >    
+> >   
 > > // comandos a serem repetidos  
-> >    
+> >   
 > > }  
-> >    
+> >   
 > > // comandos após o 'while'
 
 O funcionamento é o seguinte:
@@ -78,19 +78,68 @@ deve ser usado sempre que:
 
 ### Exemplos
 
-| int continua, contador;continua = 's'; contador = 0;while \(continua == 's'\)  // enquanto for igual a 's' { // comandos a serem repetidos   printf\("Repentindo....\n"\);   contador = contador + 1;   printf\("Tecle 's' se deseja continuar\n"\);    continua = getch\(\); }if \(contador == 0\) printf\("O bloco NAO foi repetido."\); else printf\("O bloco foi repetido %d vezes", contador\); |
-| :--- |
+```cpp
+int continua, contador;
+continua = 's';
+contador = 0;
+while (continua == 's')  // enquanto for igual a 's'
+{
+// comandos a serem repetidos
+printf("Repentindo....\n");
+contador = contador + 1;
+printf("Tecle 's' se deseja continuar\n");
+   continua = getch();
+}
+if (contador == 0)
+printf("O bloco NAO foi repetido.");
+else printf("O bloco foi repetido %d vezes", contador);
+```
 
+---
 
-| // Programa que calcula a idade média de um grupo de pessoas. // A finalização da entrada de números é dada por um -1int soma, quantidade, idade;float media;soma = 0; quantidade = 0;  idade = 0;while \(idade != -1\)  { // comandos a serem repetidos   printf\("Idade da pessoa %d. \(tecle -1 se quiser encerrar\).\n",                quantidade+1\);    scanf\("%d", &idade\);   if \(idade &gt;=0\)    {       soma = soma + idade;      quantidade = quantidade + 1;    } }// Faz o calculo da media de idadeif \(quantidade &gt;0\) {    media = \(float\) soma / quantidade;    printf\("A media de idade das %d pessoas eh: %5.2f", quantidade,             media\); } else printf\("Nenhum dado foi informado."\); |
-| :--- |
+```cpp
+// Programa que calcula a idade média de um grupo de pessoas.
+// A finalização da entrada de números é dada por um -1
 
+int soma, quantidade, idade;
+
+float media;
+
+soma = 0;
+quantidade = 0; 
+idade = 0;
+
+while (idade != -1) 
+{
+// comandos a serem repetidos
+
+   printf("Idade da pessoa %d. (tecle -1 se quiser encerrar).\n",
+               quantidade+1);
+   scanf("%d", &idade);
+
+   if (idade >=0)
+   { 
+     soma = soma + idade;
+     quantidade = quantidade + 1;
+   }
+}
+
+// Faz o calculo da media de idade
+
+if (quantidade >0)
+{
+   media = (float) soma / quantidade;
+   printf("A media de idade das %d pessoas eh: %5.2f", quantidade,
+            media);
+}
+else printf("Nenhum dado foi informado.");
+```
 
 ### Observação:
 
 Tenha atenção especial com o teste do comando while. As variáveis usadas no teste devem ter sido inicializadas
 
-**antes do teste**
+**antes do teste.**
 
 ---
 
@@ -115,13 +164,13 @@ uma certa condição for
 é a seguinte:
 
 > > do  
-> >    
+> >   
 > > {  
-> >    
+> >   
 > > // comandos a serem repetidos  
-> >    
+> >   
 > > // comandos a serem repetidos  
-> >    
+> >   
 > > } while \(condição\)  
 > > ;  
 > > // comandos após o 'do-while'
@@ -161,13 +210,75 @@ deve ser usado sempre que:
 
 ### Exemplos
 
-| int continua, contador;contador = 0; // nao precisamos inicializar a variável 'continua' pois o teste é feito  // depoisdo  { // comandos a serem repetidos   printf\("Repentindo....\n"\);   contador = contador + 1;   printf\("Tecle 's' se deseja continuar\n"\);    continua = getch\(\); } while \(continua == 's'\) printf\("O bloco foi repetido %d vezes", contador\); |
-| :--- |
+```cpp
+int continua, contador;
+
+contador = 0; 
+
+// nao precisamos inicializar a variável 'continua' pois o teste é feito 
+// depois
+
+do 
+{
+// comandos a serem repetidos
+
+   printf("Repentindo....\n");
+
+   contador = contador + 1;
+
+   printf("Tecle 's' se deseja continuar\n");
+   continua = getch();
+} while (continua == 's') 
+
+printf("O bloco foi repetido %d vezes", contador);
+```
+
+---
+
+```cpp
+// Programa que calcula a idade média de um grupo de pessoas
+// A finalização da entrada de números é dada por um -1
+int soma, quantidade, idade;
+float media;
+soma = 0;
+quantidade = 0;
+do {
+     printf("Idade da pessoa %d. (tecle -1 se quiser encerrar).\n",
+               quantidade+1);
+     scanf("%d", &idade);
+if (idade > =0)
+{
+soma = soma + idade;
+quantidade = quantidade + 1;
+}
+} while (idade != -1);
+// Faz o calculo da media de idade
+if (quantidade > 0)
+{
+   media = (float) soma / quantidade;
+   printf("A media de idade das %d pessoas eh: %5.2f", quantidade,
+            media);
+}
+else printf("Nenhum dado foi informado.");
+```
+
+### EXERCÍCIOS
+
+1- some e imprima a soma de números entre -1000 e 1000 de uma sequencia crescente até que a soma dos dois últimos termos seja igual ao dobro do termo atual. Suponha que o usuário só entrará com números em sequência crescente.
+
+2 -Escreva um programa que pergunte ao usuário quantos alunos tem na sala dele. Em seguida, através de um laço while, pede ao usuário para que entre com as notas de todos os alunos da sala, um por vez. Por fim, o programa deve mostrar a média, aritmética, da turma.
+
+3- Escreva um programa em C que solicita 10 números ao usuário, através de um laço while, e ao final mostre os dois maiores números digitados pelo usuário.
+
+### Referências
+
+Apostila C Progressivo - Solução das questões sobre o laço WHILE. Disponivel em &lt; [http://www.cprogressivo.net/2013/02/Questoes-resolvidas-sobre-laco-WHILE-em-C.html](http://www.cprogressivo.net/2013/02/Questoes-resolvidas-sobre-laco-WHILE-em-C.html)&gt; Acessado em 14. Nov. 2017
+
+Os laços while e do ... while - Aspectos básicos - parte 2 Disponível em &lt; [http://stoa.usp.br/ccpp/weblog/7814.html](http://stoa.usp.br/ccpp/weblog/7814.html)&gt; Acessado e: 14.Nov.2017
 
 
-| // Programa que calcula a idade média de um grupo de pessoas. // A finalização da entrada de números é dada por um -1int soma, quantidade, idade;float media;soma = 0; quantidade = 0; do {      printf\("Idade da pessoa %d. \(tecle -1 se quiser encerrar\).\n",                quantidade+1\);      scanf\("%d", &idade\);     if \(idade &gt;=0\)      {         soma = soma + idade;        quantidade = quantidade + 1;      }    } while \(idade != -1\);// Faz o calculo da media de idadeif \(quantidade &gt; 0\) {    media = \(float\) soma / quantidade;    printf\("A media de idade das %d pessoas eh: %5.2f", quantidade,             media\); } else printf\("Nenhum dado foi informado."\); |
-| :--- |
 
+SAR_ROGLIA, Márcio; Programação em C++ - Comandos de Repetição Disponível em &lt;_[http://www.inf.pucrs.br/~pinho/LaproI/ComandosDeRepeticao/Repeticao.html](http://www.inf.pucrs.br/~pinho/LaproI/ComandosDeRepeticao/Repeticao.html)_&gt;. Acessado em 14. Nov. 2017._
 
 
 

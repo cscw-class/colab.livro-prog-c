@@ -18,5 +18,7 @@
 
 #### Renan Xavier Calmon - [Github](https://github.com/Renanxc)
 
+#### Jordan Mendonça Costa - [Github](https://github.com/Jordanmendonca)
+
 
 

@@ -20,6 +20,78 @@
 
 3.4 - É possível utilizar qualquer nome para denominar uma variável? Por que?
 
+## Capítulo 7 - Loops - While e Do-While
+
+Exercício 1 - Escreva um programa que lê o tamanho do lado de um quadrado e imprime um quadrado daquele tamanho com asteriscos. Seu programa deve funcionar para quadrados com lados de todos os tamanhos entre 1 e 20.
+
+Por exemplo, para lado igual a 5:
+
+\*\*\*\*\*
+
+\*\*\*\*\*
+
+\*\*\*\*\*
+
+\*\*\*\*\*
+
+\*\*\*\*\*
+
+Dica:
+
+Note que sempre existirão 'lado \* lado' asteriscos. Vamos usar o while para imprimir todos os 'lado\*lado' asteriscos.
+
+Note também que a cada 'lado' asteriscos, ocorre uma quebra da linha.
+
+No exemplo do lado=5: quando chegamos no asterisco de número 5, não imprimimos somente '\*', mas '\*\n'
+
+O mesmo para o asterisco de número 10, pro de número 15, ...e pro de número 20
+
+Ou seja, após o asterisco múltiplo de 5 ser impresso na tela, devemos colocar uma quebra da linha.
+
+Como chamamos números que são múltiplos de 'lado'? Ora, pelo módulo \(ou resto da divisão\).
+
+
+
+
+
+Exercício 2 -  **Escreva um programa que lê o tamanho do lado de um quadrado e imprime um quadrado daquele tamanho com asteriscos e espaços em branco. Seu programa deve funcionar para quadrados com lados de todos os tamanhos entre 1 e 20.**
+
+**Para lado igual a 5:**
+
+**\*\*\*\*\***
+
+**\*    \***
+
+**\*    \***
+
+**\*    \***
+
+**\*\*\*\*\***
+
+Dica: 
+
+Primeiro vamos imprimir a primeira linha, que tem 'lado' asteriscos com um while.
+
+Fazemos o mesmo para a última linha.
+
+Agora vamos imprimir as linhas que não são completamente preenchidas de asteriscos, as que tem espaços em branco.
+
+Note que essas linhas possuem um asterisco na primeira e na última posição.
+
+Antes nós imprimíamos lado\*lado caracteres. Agora, como tiramos duas linhas, vamos imprimir só 'lado\*\(lado-2\)' linhas.
+
+Se o caractere que formos imprimir for o primeiro da fila, imprimimos '\*'.
+
+Para sabermos isso, basta fazer um teste para ver se o contador \(que vai de 1 até lado\*\(lado-2\)\) deixa resto 1 quando dividido por 'lado'.
+
+Se for o último asterisco da linha, devemos imprimir '\*\n', pois irá pular de linha.
+
+Para detectar esse último asterisco, basta ver que é o caractere que, quando dividido por 'lado', deixa resto 0.
+
+Se não for o primeiro nem o último caractere, imprimimos um espaço em branco: ' '
+
+## 
+
 ## Capítulo 8: Vetores
 
 1 - Crie um vetor do tipo **float **chamado **notas** de 3 posições que possuirá os seguintes valores: \_9.0, 10.0 e 8.5
@@ -247,8 +319,6 @@ b\) cout &lt;&lt; \*p;
 c\) \*p = x\*5;
 
 d\) cout &lt;&lt; \*\(p+1\);
-
-## 
 
 ## 
 
