@@ -146,5 +146,9 @@ printf("O maior elemento é %d\n",maior); // o \n foi utilizado apenas para pula
 /*deverá ser imprimido o valor 4 caso o vetor seja igual ao do exercício 4*/
 ```
 
+#### Referências
 
+CASAVELLA, E. Vetores – arrays em linguagem C, 2017. Intellectuale. Disponível em: &lt;[http://linguagemc.com.br/vetores-ou-arrays-em-linguagem-c/](http://linguagemc.com.br/vetores-ou-arrays-em-linguagem-c/)&gt;. Acesso em: 12 nov. 2017.
+
+SOUZA, C.  Linguagem C: vetores/matrizes, 2017. UNIVASF. Disponível em: &lt;[http://www.univasf.edu.br/~criston.souza/algoritmos/arquivos/aula08.2.pdf](http://www.univasf.edu.br/~criston.souza/algoritmos/arquivos/aula08.2.pdf)&gt;. Acesso em: 13 nov. 2017.
 
