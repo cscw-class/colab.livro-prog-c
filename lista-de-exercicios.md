@@ -20,6 +20,14 @@
 
 3.4 - É possível utilizar qualquer nome para denominar uma variável? Por que?
 
+# Capítulo 5.1 - Entrada e saída de dados printf\(\)
+
+### exercício
+
+1-Faça um programa em C que imprima a mensagem "estou programando em c"
+
+2- Faca um programa em C que imprima o valor de uma variável do tipo float
+
 ## Capítulo 6.2 - Tomadas de Decisões \(Switch\)
 
 #### Exercício
