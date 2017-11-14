@@ -56,6 +56,13 @@ int nUm;
 num = 1; //aqui seu programa acusará um erro
 ```
 
+Uma boa prática é sempre dar nomes às suas variáveis de acordo com os dados que elas guardam. Em programas com muitas linhas de código isto facilita sua leitura:
+
+```c
+int matricula;
+float nota1bim;
+```
+
 ###Tipos de dados
 Em C, existem cinco tipos, chamados primitivos, de dados:
 ``char, int, float, double e void``
