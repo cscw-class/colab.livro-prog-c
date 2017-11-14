@@ -67,7 +67,7 @@ float nota1bim;
 Em C, existem cinco tipos, chamados primitivos, de dados:
 ``char, int, float, double e void``
 
-Com exceção do void (que é mais utilizado para desenvolver funções que nada retornam ou que nada recebem, como será visto mais a frente), todos os outros tipos são capazes de guardar informações.
+Com exceção do void (que é mais utilizado para desenvolver funções ou variáveis que nada retornam ou que nada recebem, como será visto mais a frente), todos os outros tipos são capazes de guardar informações.
 
 * O tipo char é utilizado para guardar um caractere:
 ```c
@@ -88,5 +88,11 @@ idade = 29;
 float nota;
 nota = 7.1;
 ```
-* Lembre-se que, diferente do sistema métrico, que utilizamos para atribuir valores decimais, em C, números reais devem ter sua parte decimal precedida de um ponto (.) e não uma vírgula.
+ * Lembre-se que, diferente do sistema métrico, que utilizamos a vírgula (,) para atribuir valores decimais, em C, números reais devem ter sua parte decimal precedida de um ponto (.) .
 
+
+* O tipo double é utilizado para guardar números reais de grande tamanho:
+```c
+double massadosol;
+massadosol = 1.98892 × 10000000000000000000000000000000000;
+```
