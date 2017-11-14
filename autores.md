@@ -2,6 +2,8 @@
 
 #### Alex Salgado - [Github](https://github.com/salgado)
 
+#### Caio Boechat - [Github](https://github.com/caioboechat)
+
 #### Eduardo Gomes - [Github](https://github.com/elgsantos)
 
 #### Eyre Brasil Montevecchi - [Github](https://github.com/eyrebrasil)
