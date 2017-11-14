@@ -1,4 +1,8 @@
-## Comando do-while
+# **Capítulo 7.2: Loops - do..while** {#capítulo-51-entrada-e-saída-de-dadosprintf}
+
+##### **Autor: **Diego Maciel
+
+
 
 O comando
 
