@@ -96,3 +96,13 @@ nota = 7.1;
 double massadosol;
 massadosol = 1.98892 × 10000000000000000000000000000000000;
 ```
+
+###Referências
+MIZRAHI, Victorine Viviane
+Treinamento em Linguagem C - 2ª ed.
+2008 - Pearson
+
+GOPAC - Grupo de Otimização e Projeto Assistidos por Computador - UFMG
+Curso de C
+Disponível em: http://mtm.ufsc.br/~azeredo/cursoC/aulas/c740.html
+Acesso em 14 de novembro de 2017.
