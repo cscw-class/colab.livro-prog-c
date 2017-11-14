@@ -2,33 +2,17 @@
 
 ##### **Autor: **Diego Maciel
 
+O comando **do-while **permite que um certo trecho de programa seja executado **ENQUANTO **uma certa condição for **verdadeira**. 
 
-
-O comando
-
-**do-while**
-
-permite que um certo trecho de programa seja executado
-
-**ENQUANTO**
-
-uma certa condição for
-
-**verdadeira**
-
-. A forma do comando
-
-**do-while**
-
-é a seguinte:
+A forma de escrita do comando **do-while **é a seguinte:
 
 > > do  
 > >   
-> > {  
+> > {
+> >
 > >   
-> > // comandos a serem repetidos  
-> >   
-> > // comandos a serem repetidos  
+> > // comandos a serem repetidos
+> >
 > >   
 > > } while \(condição\)  
 > > ;  
@@ -36,36 +20,16 @@ uma certa condição for
 
 O funcionamento é o seguinte:
 
-1. Executa os comando dentro do bloco 
-   **do-while**
-   ;
+1. Executa os comando dentro do bloco **do-while**;
 2. Testa a condição;
-3. Se a  
-   **condição**
-    for 
-   **falsa**
-    então executa o comando que está logo após o bloco subordinado ao 
-   **do-while**
-    .
-4. Se  
-   **condição**
-    for 
-   **verdadeira**
-    então volta ao passo 1.
+3. Se a **condição **for **falsa, **então executa o comando que está logo após o bloco subordinado ao **do-while**.
+4. Se **condição** for **verdadeira, **então volta ao passo 1.
 
-O comando
+O comando **do-while **deve ser usado sempre que:
 
-**do-while**
-
-deve ser usado sempre que:
-
-* **que não soubermos exatamente quantas vezes o laço deve ser repetido**
-  ;
-* o teste deva ser feito 
-  **depois da execução**
-  de um bloco de comandos;
-* o bloco de comandos deve se 
-  **executado pelo menos 1 vez;**
+* **não soubermos exatamente quantas vezes o laço deve ser repetido**;
+* o teste deva ser feito **depois da execução **de um bloco de comandos;
+* o bloco de comandos deve se **executado pelo menos 1 vez;**
 
 ### Exemplos
 
@@ -121,13 +85,7 @@ if (quantidade > 0)
 else printf("Nenhum dado foi informado.");
 ```
 
-### EXERCÍCIOS
 
-1- some e imprima a soma de números entre -1000 e 1000 de uma sequencia crescente até que a soma dos dois últimos termos seja igual ao dobro do termo atual. Suponha que o usuário só entrará com números em sequência crescente.
-
-2 -Escreva um programa que pergunte ao usuário quantos alunos tem na sala dele. Em seguida, através de um laço while, pede ao usuário para que entre com as notas de todos os alunos da sala, um por vez. Por fim, o programa deve mostrar a média, aritmética, da turma.
-
-3- Escreva um programa em C que solicita 10 números ao usuário, através de um laço while, e ao final mostre os dois maiores números digitados pelo usuário.
 
 ### Referências
 
