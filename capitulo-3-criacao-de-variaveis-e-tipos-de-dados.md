@@ -31,7 +31,7 @@ letra = "C";
 ```
 
 ###Declaração de variáveis
-Em C, as variáveis devem ser declaradas antes de serem utilizadas. Acima, foram utilizados exemplos de variáveis que começam com letras. Nesta linguagem, as variaveis devem iniciar com letra minuscula ou um caractere underscore (_)
+Em C, as variáveis devem ser declaradas antes de serem utilizadas. Acima, foram utilizados exemplos de variáveis que começam com letras. Nesta linguagem, as variaveis devem iniciar com letra minuscula ou um caractere underscore (_):
 
 ```c
 int num;
@@ -47,3 +47,7 @@ int 1;
 
 ```
 
+###Tipos de dados
+Em C, existem cinco tipos, chamados primitivos, de dados:
+``char, int, float, double e void``
+Com exceção do void (que é mais utilizado para desenvolver funções que nada retornam ou que nada recebem, como será visto mais a frente), todos os outros tipos são capazes de guardar informações.
