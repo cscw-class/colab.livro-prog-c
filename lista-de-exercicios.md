@@ -28,16 +28,11 @@
 
 2- Faca um programa em C que imprima o valor de uma variável do tipo float
 
-
-
 # **Capítulo 5.2 - Entrada e saida de dados scanf**
 
 1- Escreva um programa em C que receba um inteiro e diga se ele é par ou impar.
 
 2- Crie um programa em C que peça dois números decimais ao usuário e mostre o produto deles.
-
-  
-
 
 ## Capítulo 6.2 - Tomadas de Decisões \(Switch\)
 
@@ -346,7 +341,11 @@ c\) \*p = x\*5;
 
 d\) cout &lt;&lt; \*\(p+1\);
 
-## 
+## Capítulo 15.2 - Arquivo de Texto - Gravação
+
+1- Escreva um programa que peça números decimais ao usuário, até que ele digita 0.
+
+2- Salve todos os números digitados em um arquivo chamado "dados.txt", que mostra a média desses números no final do arquivo.
 
 
 
