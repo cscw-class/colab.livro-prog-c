@@ -345,3 +345,23 @@ d\) cout &lt;&lt; \*\(p+1\);
 
 2- Salve todos os números digitados em um arquivo chamado "dados.txt", que mostra a média desses números no final do arquivo.
 
+
+
+# **16.2 Arquivo Binário - Gravação**
+
+1- Fazer um programa em C para gravar os dados de 6 funcionários em um arquivo binário. Cada registro \(estrutura\) de funcionário deve conter os seguintes campos:
+
+* Matrícula do funcionário \(inteiro\);
+
+* Nome do funcionário \(cadeia de caracteres\)
+
+Salário do funcionário \(real\);
+
+Ler o nome do arquivo via teclado.
+
+Ler \(via teclado\) e gravar no arquivo os dados dos 6 funcionários.
+
+Ao final, mostrar na tela o conteúdo do arquivo binário gravado."
+
+1.1 - Fazer um programa em C que gere um arquivo binário, ordenado por Nome do Funcionário, com os mesmos dados já gravados no arquivo gerado pelo exercício acima. Após gravar o arquivo ordenado, reabrí-lo e escrever seus dados na tela.
+

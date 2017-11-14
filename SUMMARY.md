@@ -28,4 +28,5 @@
 * [Autores](autores.md)
 * [Lista de exercícios](lista-de-exercicios.md)
 * [Capítulo 9: Matrizes](capitulo-9-matrizes.md)
+* [Capitulo 16.2 : Arquivo Binário - Gravação](capitulo-162-arquivo-binario-gravacao.md)
 
