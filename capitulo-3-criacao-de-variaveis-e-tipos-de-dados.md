@@ -42,7 +42,19 @@ Exemplo incorreto:
 int 1;
 ```
 
-Podemos atribuir valores às va
+Podemos atribuir valores às variáveis, para isto, basta colocar um sinal de igual (=) após o nome da variável:
+
+```c
+int num;
+num = 1;
+```
+
+Apesar de não podermos iniciar os nomes das variáveis com letras maiúsculas ou números, eles podem aparecer nos demais caracteres da variável. Lembre-se que, por ser _case sensitive_, as variáveis deverão ser cahamdas do mesmo modo em que foram declaradas. Caso contrário, seu programa acusará um erro:
+
+```c
+int nUm;
+num = 1; //aqui seu programa acusará um erro
+```
 
 ###Tipos de dados
 Em C, existem cinco tipos, chamados primitivos, de dados:
