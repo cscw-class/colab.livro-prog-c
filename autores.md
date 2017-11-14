@@ -22,6 +22,8 @@
 
 #### Renan Xavier Calmon - [Github](https://github.com/Renanxc)
 
+#### Renata Machado Cardoso - [Github](https://github.com/reehmachado)
+
 #### 
 
 

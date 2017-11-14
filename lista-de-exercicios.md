@@ -38,6 +38,10 @@
 
 3- Escreva um programa em C que solicita 10 números ao usuário, através de um laço while, e ao final mostre os dois maiores números digitados pelo usuário.
 
+## Capítulo 7.4 - Break .. Continue
+
+1 - Usando os comandos** break** e **continue**, crie um programa que leia um número e verifique se o mesmo faz parte de um menu. Em caso positivo, o programa deve imprimir a mensagem correspondente ao número informado. Caso não faça, o programa deve imprimir um aviso.
+
 ## Capítulo 8: Vetores
 
 1 - Crie um vetor do tipo **float **chamado **notas** de 3 posições que possuirá os seguintes valores: \_9.0, 10.0 e 8.5
