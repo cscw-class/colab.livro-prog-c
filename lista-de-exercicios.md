@@ -28,16 +28,11 @@
 
 2- Faca um programa em C que imprima o valor de uma variável do tipo float
 
-
-
 # **Capítulo 5.2 - Entrada e saida de dados scanf**
 
 1- Escreva um programa em C que receba um inteiro e diga se ele é par ou impar.
 
 2- Crie um programa em C que peça dois números decimais ao usuário e mostre o produto deles.
-
-  
-
 
 ## Capítulo 6.2 - Tomadas de Decisões \(Switch\)
 
@@ -59,9 +54,9 @@
 
 ## Capítulo 7.4 – Break .. Continue
 
-EXERCÍCIO
 
-Usando os comandos **break** e **continue**, crie um programa que leia um número e verifique se o mesmo faz parte de um menu. Em caso positivo, o programa deve imprimir a mensagem correspondente ao número informado. Caso não faça, o programa deve imprimir um aviso.
+
+1 - Usando os comandos **break** e **continue**, crie um programa que leia um número e verifique se o mesmo faz parte de um menu. Em caso positivo, o programa deve imprimir a mensagem correspondente ao número informado. Caso não faça, o programa deve imprimir um aviso.
 
 ## Capítulo 8: Vetores
 
