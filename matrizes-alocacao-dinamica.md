@@ -1,12 +1,10 @@
-# Capítulo 8: Matrizes Dinâmicas
+# Capítulo 9: Matrizes Dinâmicas
 
-###### Por Jordan Mendonça Costa
+##### **Por Jordan Mendonça Costa**
 
+## Alocação Dinâmica de Matrizes
 
-
-#### Alocação Dinâmica de Matrizes
-
- A alocação dinâmica de memória para matrizes é realizada da mesma forma que para vetores, com a diferença que teremos um ponteiro apontando para outro ponteiro que aponta para o valor final, ou seja é um ponteiro para ponteiro, o que é denominado 
+A alocação dinâmica de memória para matrizes é realizada da mesma forma que para vetores, com a diferença que teremos um ponteiro apontando para outro ponteiro que aponta para o valor final, ou seja é um ponteiro para ponteiro, o que é denominado
 
 indireção múltipla
 
@@ -25,14 +23,14 @@ float **Alocar_matriz_real (int m, int n)
      return (NULL);
      }
   /* aloca as linhas da matriz */
-  v = (float **) calloc (m, sizeof(float *));	/ Um vetor de m ponteiros para float */
+  v = (float **) calloc (m, sizeof(float *));    / Um vetor de m ponteiros para float */
   if (v == NULL) {
      printf ("** Erro: Memoria Insuficiente **");
      return (NULL);
      }
   /* aloca as colunas da matriz */
   for ( i = 0; i < m; i++ ) {
-      v[i] = (float*) calloc (n, sizeof(float));	/* m vetores de n floats */
+      v[i] = (float*) calloc (n, sizeof(float));    /* m vetores de n floats */
       if (v[i] == NULL) {
          printf ("** Erro: Memoria Insuficiente **");
          return (NULL);
@@ -64,16 +62,16 @@ void main (void)
 
   for (i = 0; i < l; i++)
      for ( j = 0; j < c; j++)
-	mat[i][j] = i+j;
-  
+    mat[i][j] = i+j;
+
   ...           /* outros comandos utilizando mat[][] normalmente */
   mat = Liberar_matriz_real (l, c, mat);
   ...
 ```
 
-#### Alocacando cada Linha
+## Alocando cada Linha
 
- A técnica que parece ser a mais popular é alocar um vetor de ponteiros e depois alocar uma linha da matriz para cada ponteiro deste vetor:
+A técnica que parece ser a mais popular é alocar um vetor de ponteiros e depois alocar uma linha da matriz para cada ponteiro deste vetor:
 
 ```cpp
 int main(int, char **)
@@ -81,21 +79,21 @@ int main(int, char **)
     int nlinhas = 5;
     int ncol = 5;
     int **mat = new int*[nlinhas];
- 
+
     for(int i = 0;i < nlinhas; ++i)
         mat[i] = new int[ncol];
- 
+
     //iniciando ela com zero
     for(int i = 0;i < nlinhas; ++i)
         for(int j = 0;j < ncol; ++j)
             mat[i][j] = 0;
- 
+
     //liberar memória
     for(int i = 0;i < nlinhas; ++i)
         delete []mat[i];
- 
+
     delete []mat;     
- 
+
     return 0;
 }
 ```
@@ -108,25 +106,25 @@ Já o desperdício de espaço ocorre devido a necessidade de se realizar varias 
 
 A única vantagem em utilizar este método é quando precisamos de uma matriz absurdamente grande e alocamos cada linha apenas quando existe necessidade, mas mesmo nesse caso acredito que existam técnicas melhores para se implementar uma matriz esparsa.
 
-#### Usar apenas um Vetor
+## Usar apenas um Vetor
 
- Uma maneira mais simples de se implementar uma matriz é utilizando apenas um vetor e realizar o acesso dos elementos como se fossem uma matriz:
+Uma maneira mais simples de se implementar uma matriz é utilizando apenas um vetor e realizar o acesso dos elementos como se fossem uma matriz:
 
 ```cpp
 int main(int, char **)
 {
     int nlinhas = 5;
     int ncol = 3;
- 
+
     //alocando a "matriz"
     int *mat = new int[nlinhas * ncol];
- 
+
     //colocando 5 na linha 3, coluna 2
     mat[3 * ncol + 2] = 5;
- 
+
     //liberando a memoria
     delete []mat;
- 
+
     return 0;
 }
 ```
@@ -137,38 +135,38 @@ Para acessar um elemento usamos a fórmula: elem\[linha \* ncol + col\], onde li
 
 Como é feita apenas uma alocação é usado o minimo de memória possível, além de deixar o cache feliz na hora de acessar os dados.
 
-#### Utilizando std::vector
+## Utilizando std::vector
 
- Por fim, podemos utilizar o std::vector e não precisamos assim nos preocupar mais em gerenciar a memória da matriz e deixar o programa mais alinhado:
+Por fim, podemos utilizar o std::vector e não precisamos assim nos preocupar mais em gerenciar a memória da matriz e deixar o programa mais alinhado:
 
 ```cpp
 #include <iostream>
 #include <vector>
- 
+
 int main(int, char **)
 {
     int ncol = 4;
     int nlinha = 3;
- 
+
     std::vector mat(ncol * nlinha);
- 
+
     //acessando elemento 2, 1 (linha 2, coluna 1)
     mat[2 * nlinha + 1] = -1;
- 
+
     std::cout << mat[2 * nlinha + 0] << std::endl;
     std::cout << mat[2 * nlinha + 1] << std::endl;
- 
+
     return 0;
 }
 ```
 
- Esse código é muito semelhante ao anterior, mas as operações de gerenciamento de memória foram encapsuladas com o uso de um std::vector, utilizando-se uma boa implementação de std::vector não deve existir diferença alguma de performance e uma diferença minima de consumo de memória entre este exemplo e o anterior.
+Esse código é muito semelhante ao anterior, mas as operações de gerenciamento de memória foram encapsuladas com o uso de um std::vector, utilizando-se uma boa implementação de std::vector não deve existir diferença alguma de performance e uma diferença minima de consumo de memória entre este exemplo e o anterior.
 
+## Referências:
 
+curso de C. Disponível em: &lt;http://www.pucsp.br/~so-comp/cursoc/aulas/ca70.html\#cA71&gt; Acessado em: 14.Nov.2017
 
-#### Exercícios
-
-
+CRIVELARI, Bruno. Ponto V - Matrizes Dinâmicas. Disponível em &lt;http://www.pontov.com.br/site/cpp/46-conceitos-basicos/57-matrizes-dinamicas&gt;  Acessado em: 14.Nov.2017
 
 
 
