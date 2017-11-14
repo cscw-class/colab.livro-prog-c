@@ -12,13 +12,15 @@
 
 #### Iann Zukowski - [Github](https://github.com/izukowski)
 
+#### Jordan Mendonça Costa - [Github](https://github.com/Jordanmendonca)
+
 #### Rafael Marcílio - [Github](https://github.com/rafaelbatistamarcilio)
 
 #### Mariani Pereira - [Github](https://github.com/MarianiPSM)
 
 #### Renan Xavier Calmon - [Github](https://github.com/Renanxc)
 
-#### Jordan Mendonça Costa - [Github](https://github.com/Jordanmendonca)
+#### 
 
 
 
