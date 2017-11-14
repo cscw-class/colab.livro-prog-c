@@ -26,8 +26,8 @@ int main ()
     printf ("\n\nEntre com outra string: ");
     gets (str2);
     if (strcmp(str1,str2))
-            printf ("\n\nAs duas strings s�o diferentes.");
-    else printf ("\n\nAs duas strings s�o iguais.");
+            printf ("\n\nAs duas strings são diferentes.");
+    else printf ("\n\nAs duas strings são iguais.");
     return(0);
 }
 ```
@@ -60,13 +60,9 @@ int main ()
 
 **Referências**:
 
-http://www.facom.ufu.br/~madriana/PP/TP6.pdf
+[http://www.facom.ufu.br/~madriana/PP/TP6.pdf](http://www.facom.ufu.br/~madriana/PP/TP6.pdf)
 
-http://mtm.ufsc.br/~azeredo/cursoC/aulas/c520.html
+[http://mtm.ufsc.br/~azeredo/cursoC/aulas/c520.html](http://mtm.ufsc.br/~azeredo/cursoC/aulas/c520.html)
 
-http://linguagemc.com.br/a-biblioteca-string-h/
-
-
-
-
+[http://linguagemc.com.br/a-biblioteca-string-h/](http://linguagemc.com.br/a-biblioteca-string-h/)
 
