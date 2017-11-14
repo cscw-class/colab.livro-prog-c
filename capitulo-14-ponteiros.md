@@ -143,11 +143,9 @@ Exemplo de declaração de ponteiro:
 
 ### 14.4 - Exercícios
 
-Faça agora os exercícios. Acesse a lista de exercícios acessando  a página da lista de exercúicios deste e-book.
+Faça agora os exercícios. Acesse a lista de exercícios acessando  a página da lista de exercícios deste e-book.
 
-[https://www.gitbook.com/book/alexsalgado/introducao-a-programacao-em-c/edit\#/edit/master/lista-de-exercicios.md?\_k=6dkdni&gt](https://www.gitbook.com/book/alexsalgado/introducao-a-programacao-em-c/edit#/edit/master/lista-de-exercicios.md?_k=6dkdni&gt);
-
-
+[https://www.gitbook.com/book/alexsalgado/introducao-a-programacao-em-c/edit\#/edit/master/lista-de-exercicios.md?\_k=6dkdni&gt;](https://www.gitbook.com/book/alexsalgado/introducao-a-programacao-em-c/edit#/edit/master/lista-de-exercicios.md?_k=6dkdni&gt);
 
 **Obs:** _Ponteiros é uma conteúdo muito extenso. Que novos alunos venha complementar este trabalho inicial!_
 
