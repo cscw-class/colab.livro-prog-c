@@ -1,5 +1,7 @@
 ## Comando do-while
 
+Por Diego Maciel
+
 O comando
 
 **do-while**
