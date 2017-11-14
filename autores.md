@@ -20,11 +20,13 @@
 
 #### Márcio Mota -[ Github](https://github.com/mmota2017)
 
-#### Rafael Marcílio - [Github](https://github.com/rafaelbatistamarcilio)
-
 #### Mariani Pereira - [Github](https://github.com/MarianiPSM)
 
+#### Rafael Marcílio - [Github](https://github.com/rafaelbatistamarcilio)
+
 #### Renan Xavier Calmon - [Github](https://github.com/Renanxc)
+
+#### Renata Machado Cardoso -[ Github](https://github.com/reehmachado)
 
 #### 
 
