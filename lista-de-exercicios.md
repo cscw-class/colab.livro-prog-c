@@ -1,5 +1,13 @@
 # Lista de Exercícios, por capítulos.
 
+## Capítulo 2 - Olá Mundo
+
+2.1- Faça um programa em C que imprima a mensagem "Segundo Programa"
+
+2.2- Faça um programa em C que imprima a mensagem "Segundo programa" duas vezes.
+
+## 
+
 ## Capítulo 11 - Strcmp e Strcpy
 
 11.1  Construa um programa em C que leia quatro nomes fornecidas pelo usuário através da  entrada padrão e os salve, garantindo que  somente os nomes que não são repetidos serão salvos.
