@@ -15,7 +15,7 @@
 * [Capítulo 8: Vetores](capitulo-8-vetores.md)
 * [Capítulo 9: Matrizes](capitulo-9-matrizes.md)
 * [Capítulo 9.1: Matrizes Dinâmicas](matrizes-alocacao-dinamica.md)
-* Capítulo 6.1: Tomada de decisões - If
+* [Capítulo 6.1: Tomada de decisões - If](capitulo-61-tomada-de-decisoes-if.md)
 * [Capítulo 12: Struct](capitulo-12-struct.md)
 * [Capítulo 13: TypeDef](capitulo-13-typedef.md)
 * [Capítulo 14: Ponteiros](capitulo-14-ponteiros.md)
