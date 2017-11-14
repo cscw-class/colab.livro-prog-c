@@ -22,6 +22,8 @@
 
 #### Mariani Pereira - [Github](https://github.com/MarianiPSM)
 
+#### Matheus Ferreira dos Santos - [Github](https://github.com/MatheusFerreiraSantos)
+
 #### Rafael Marcílio - [Github](https://github.com/rafaelbatistamarcilio)
 
 #### Renan Xavier Calmon - [Github](https://github.com/Renanxc)
