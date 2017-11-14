@@ -15,6 +15,10 @@
 
 3.2 - Como atribuir valores às variáveis?
 
+3.3 - Quais são os cinco tipos primitivos de dados em C?
+
+3.4 - É possível utilizar qualquer nome para denominar uma variável? Por que?
+
 ## Capítulo 11 - Strcmp e Strcpy
 
 11.1  Construa um programa em C que leia quatro nomes fornecidas pelo usuário através da  entrada padrão e os salve, garantindo que  somente os nomes que não são repetidos serão salvos.
