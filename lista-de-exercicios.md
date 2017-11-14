@@ -94,6 +94,22 @@ printf("O maior elemento é %d\n",maior); // o \n foi utilizado apenas para pula
 /*deverá ser imprimido o valor 4 caso o vetor seja igual ao do exercício 4*/
 ```
 
+## Capítulo 9 - Matrizes
+
+1 - Faça um programa que lê uma matriz de 3 x 3 elementos usando um comando "for" e  multiplica cada elemento por 5 e imprime o resultado.
+
+2 - Escrever um algoritmo para ler uma matriz 7 x 4 contendo valores inteiros. Após, encontrar o menor valor contido na matriz e sua posição.
+
+#### Respostas
+
+1-
+
+![](/assets/exerMatriz1.png)
+
+2-
+
+![](/assets/exerMatriz2.png)
+
 ## Capítulo 9.1- Matrizes Dinâmicas
 
 Faca um programa que multiplique duas matrizes. O programa devera' estar  estruturado de maneira que:  
