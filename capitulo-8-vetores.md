@@ -92,13 +92,13 @@ for(i = 0; i < 5; i++)
 
 ## Exercícios
 
-1 - Crie um vetor do tipo _**float** \_chamado _**notas**_ de 3 posições que possuirá os seguintes valores: \_9.0, 10.0 e 8.5_
+1 - Crie um vetor do tipo **float **chamado **notas** de 3 posições que possuirá os seguintes valores: \_9.0, 10.0 e 8.5
 
 2 - Mostre os valores do vetor do exercício anterior na tela
 
 3 - Utilize uma estrutura de repetição para ler do usuário as notas. \(_ %f permite receber dados do tipo float _\)
 
-4 - Crie um vetor de _inteiros_ chamado \_vet \_de 5 posições em que cada elemento possua o valor de seu índice. Por exemplo, no elemento do primeiro índice deverá conter o valor 0 e assim por diante. Utilize uma estrutura de repetição para atribuir os valores.
+4 - Crie um vetor de _inteiros_ chamado vet de 5 posições em que cada elemento possua o valor de seu índice. Por exemplo, no elemento do primeiro índice deverá conter o valor 0 e assim por diante. Utilize uma estrutura de repetição para atribuir os valores.
 
 5 - **Desafio:** Crie um loop que compare cada valor do vetor para encontrar o maior. Utilize uma variável para armazenar o maior valor do vetor, e no final imprima o maior valor. Pode ser utilizado o vetor do exercício anterior.
 
