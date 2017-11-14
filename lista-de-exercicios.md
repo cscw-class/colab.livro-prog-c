@@ -341,7 +341,11 @@ c\) \*p = x\*5;
 
 d\) cout &lt;&lt; \*\(p+1\);
 
-## 
+## Capítulo 15.2 - Arquivo de Texto - Gravação
+
+1- Escreva um programa que peça números decimais ao usuário, até que ele digita 0.
+
+2- Salve todos os números digitados em um arquivo chamado "dados.txt", que mostra a média desses números no final do arquivo.
 
 
 
