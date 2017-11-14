@@ -24,13 +24,15 @@
 
 #### Matheus Ferreira dos Santos - [Github](https://github.com/MatheusFerreiraSantos)
 
+#### Matheus Simões Felix da Silva - [Github](https://github.com/MathSimoes)
+
 #### Rafael Marcílio - [Github](https://github.com/rafaelbatistamarcilio)
 
 #### Renan Xavier Calmon - [Github](https://github.com/Renanxc)
 
 #### Renata Machado Cardoso -[ Github](https://github.com/reehmachado)
 
-#### Matheus Simões Felix da Silva - [Github](https://github.com/MathSimoes)
+#### 
 
 
 
