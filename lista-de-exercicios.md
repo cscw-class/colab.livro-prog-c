@@ -2,7 +2,7 @@
 
 ## Capítulo 11 - Strcmp e Strcpy
 
-11.1  Construa um programa em C que leia quatro nomes fornecidas pelo usuário através da  entrada padrão e os salve, garantindo que  somente os nomes que não são repetidos serão salvos. 
+11.1  Construa um programa em C que leia quatro nomes fornecidas pelo usuário através da  entrada padrão e os salve, garantindo que  somente os nomes que não são repetidos serão salvos.
 
 11.2  Seja o código abaixo que recebe uma string e devolve uma cópia da string com as letras minúsculas transformadas em maiúsculas.
 
@@ -113,6 +113,62 @@ b\) cout &lt;&lt; \*p;
 c\) \*p = x\*5;
 
 d\) cout &lt;&lt; \*\(p+1\);
+
+## Capítulo 8: Vetores
+
+1 - Crie um vetor do tipo **float **chamado **notas** de 3 posições que possuirá os seguintes valores: \_9.0, 10.0 e 8.5
+
+2 - Mostre os valores do vetor do exercício anterior na tela
+
+3 - Utilize uma estrutura de repetição para ler do usuário as notas. \(_ %f permite receber dados do tipo float _\)
+
+4 - Crie um vetor de _inteiros_ chamado vet de 5 posições em que cada elemento possua o valor de seu índice. Por exemplo, no elemento do primeiro índice deverá conter o valor 0 e assim por diante. Utilize uma estrutura de repetição para atribuir os valores.
+
+5 - **Desafio:** Crie um loop que compare cada valor do vetor para encontrar o maior. Utilize uma variável para armazenar o maior valor do vetor, e no final imprima o maior valor. Pode ser utilizado o vetor do exercício anterior.
+
+## Respostas
+
+Questão 1:
+
+```c
+float notas[3] = {9.0, 10.0, 8.5};
+```
+
+Questão 2:
+
+```c
+int i;
+for(i = 0; i < 3; i++)
+    printf("%.1f ", notas[i]); //%.1f exibe o valor do tipo float com uma casa decimal. Ex: 9.5
+```
+
+Questão 3:
+
+```c
+for(i = 0; i < 3; i++)
+    scanf("%f", &notas[i]);
+```
+
+Questão 4:
+
+```c
+int vet[5];
+for(i = 0; i < 5; i++)
+    vet[i] = i; //o valor do elemento será o mesmo valor do índice
+```
+
+Questão 5:
+
+```c
+int maior = vet[0];  // assume que o primeiro é o maior
+
+for(i=0; i<5; i++)
+    if (vet[i] > maior)
+        maior = vet[i];
+
+printf("O maior elemento é %d\n",maior); // o \n foi utilizado apenas para pular linha
+/*deverá ser imprimido o valor 4 caso o vetor seja igual ao do exercício 4*/
+```
 
 ## Capítulo 10 - Funções
 
