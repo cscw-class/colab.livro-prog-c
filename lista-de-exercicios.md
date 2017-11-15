@@ -52,6 +52,18 @@
 
 3- Escreva um programa em C que solicita 10 números ao usuário, através de um laço while, e ao final mostre os dois maiores números digitados pelo usuário.
 
+## Capítulo 7.3 - Loops - while
+
+#### Exercícios
+
+1- Escreva um aplicativo em C mostra todos os números ímpares de 1 até 100.
+
+2- Escreva um programa que pergunte ao usuário quantos alunos tem na sala dele. Em seguida, através de um laço while, pede ao usuário para que entre com as notas de todos os alunos da sala, um por vez. Por fim, o programa deve mostrar a média, aritmética, da turma
+
+3- Escreva um programa em C que solicita 10 números ao usuário, através de um laço while, e ao final mostre os dois maiores números digitados pelo usuário.
+
+4-  Escreva um aplicativo em C mostra todos os números pares de 1 até 100. 
+
 ## Capítulo 7.4 – Break .. Continue
 
 1 - Usando os comandos **break** e **continue**, crie um programa que leia um número e verifique se o mesmo faz parte de um menu. Em caso positivo, o programa deve imprimir a mensagem correspondente ao número informado. Caso não faça, o programa deve imprimir um aviso.

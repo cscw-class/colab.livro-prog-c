@@ -11,6 +11,7 @@
 * [Capítulo 7 : Loops While e Do-While](capitulo-7-loops-dowhile.md)
 * [Capítulo 7.1: For](capitulo-71-for.md)
 * [Capítulo 7.2: Loops - do..while](capitulo-72-loops-dowhile.md)
+* [Capítulo 7.3: Loops - while](capitulo-73-loops-while.md)
 * [Capítulo 7.4: Loops - Break ... Continue](capitulo-74-loops-break-continue.md)
 * [Capítulo 8: Vetores](capitulo-8-vetores.md)
 * [Capítulo 9: Matrizes](capitulo-9-matrizes.md)
