@@ -58,5 +58,7 @@ _Exemplo:_
 >
 > }
 
+#### REFERÊNCIAS
 
+PINHO, Márcio Sarroglia. **Uso de Arquivos Binários**. Disponível em: &lt;[http://www.inf.pucrs.br/~pinho/LaproI/Arquivos/ArquivosBinarios.htm&gt](http://www.inf.pucrs.br/~pinho/LaproI/Arquivos/ArquivosBinarios.htm&gt);. Acesso em: 13 nov 2017.
 
