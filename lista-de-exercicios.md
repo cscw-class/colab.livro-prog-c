@@ -345,7 +345,11 @@ d\) cout &lt;&lt; \*\(p+1\);
 
 2- Salve todos os números digitados em um arquivo chamado "dados.txt", que mostra a média desses números no final do arquivo.
 
+## **16.1 Arquivo Binário - Leitura**
 
+Exercício 1:
+
+Crie um arquivo de texto, mude seu formato para '**.bin**', depois leia-o em C.
 
 # **16.2 Arquivo Binário - Gravação**
 

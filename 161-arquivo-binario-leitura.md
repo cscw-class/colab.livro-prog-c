@@ -58,7 +58,5 @@ _Exemplo:_
 >
 > }
 
-Exercício 1:
 
-Crie um arquivo de texto, mude seu formato para **.bin**, depois leia-o em C.
 
