@@ -26,5 +26,5 @@ variável do tipo inteiro = strlen\(string\);
 
 [http://www.unicamp.br/fea/ortega/info/aula09.htm](http://www.unicamp.br/fea/ortega/info/aula09.htm)
 
-
+[http://mtm.ufsc.br/~azeredo/cursoC/aulas/c520.html](http://mtm.ufsc.br/~azeredo/cursoC/aulas/c520.html)
 
