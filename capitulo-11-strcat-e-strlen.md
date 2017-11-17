@@ -8,15 +8,19 @@ strcat \( string1, string2\);
 
 #### **Exemplo:**
 
-![](/assets/Sem título.jpg)
+![](/assets/strcat.jpg)
 
-### Strlen
+# Strlen
 
 Determina o tamanho de uma string.
 
 #### **Sintaxe**
 
 variável do tipo inteiro = strlen\(string\);
+
+#### Exemplo:
+
+![](/assets/strlen.jpg)
 
 
 
