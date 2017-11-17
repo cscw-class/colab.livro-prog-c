@@ -10,3 +10,13 @@ strcat \( string1, string2\);
 
 ![](/assets/Sem título.jpg)
 
+### Strlen
+
+Determina o tamanho de uma string.
+
+#### **Sintaxe**
+
+variável do tipo inteiro = strlen\(string\);
+
+
+
