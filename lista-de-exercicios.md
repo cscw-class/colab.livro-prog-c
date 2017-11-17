@@ -243,6 +243,12 @@ Ou seja, se recebeu o inteiro 123, deve imprimir o inteiro 321.
 
 11.2  Seja o código abaixo que recebe uma string e devolve uma cópia da string com as letras minúsculas transformadas em maiúsculas.
 
+## Capítulo 11 - Strcat e Strlen
+
+11.3 Construa um programa em C que leia dois nomes fornecidos pelo usuário e retorne os dois nomes unificado.
+
+11.4 Construa um programa em C que receba uma palavra e retorne a quantidade de caráter.
+
 ## Capítulo 13 - Typedef
 
 13.1 Considerando a definição abaixo, como seria a declaração das variáveis p1 do tipo int\* e p2 do tipo int\*\*?
