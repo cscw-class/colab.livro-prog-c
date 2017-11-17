@@ -32,6 +32,8 @@
 
 #### Renata Machado Cardoso -[ Github](https://github.com/reehmachado)
 
+#### Raoni Moreira de Almeida - [Github](https://github.com/raonicmoreira)
+
 #### 
 
 
