@@ -22,5 +22,9 @@ variável do tipo inteiro = strlen\(string\);
 
 ![](/assets/strlen.jpg)
 
+**Referências**:
+
+[http://www.unicamp.br/fea/ortega/info/aula09.htm](http://www.unicamp.br/fea/ortega/info/aula09.htm)
+
 
 
