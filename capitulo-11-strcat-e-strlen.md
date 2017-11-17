@@ -8,7 +8,5 @@ strcat \( string1, string2\);
 
 #### **Exemplo:**
 
-
-
-
+![](/assets/Sem título.jpg)
 
