@@ -20,6 +20,7 @@
 * [Capítulo 10 - Funções](capitulo-10-funcoes.md)
 * [Capítulo 10 - Funções](capitulo-10-funcoes.md)
 * [Capítulo 11 - Strcmp e Strcpy](capitulo-11-strcmp-e-strcpy.md)
+* [Capítulo 11 - Strcat e Strlen](capitulo-11-strcat-e-strlen.md)
 * [Capítulo 12: Struct](capitulo-12-struct.md)
 * [Capítulo 13: TypeDef](capitulo-13-typedef.md)
 * [Capítulo 14: Ponteiros](capitulo-14-ponteiros.md)
