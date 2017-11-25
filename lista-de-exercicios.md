@@ -363,6 +363,10 @@ d\) cout &lt;&lt; \*\(p+1\);
 
 2- Salve todos os números digitados em um arquivo chamado "dados.txt", que mostra a média desses números no final do arquivo.
 
+3- Faça um programa que crie um arquivo TEXTO em disco, com o nome “dados.txt”, e escreva neste
+arquivo em disco uma contagem que vá de 1 até 100, com um número em cada linha. Abra este
+arquivo em um editor de textos, como por exemplo o Notepad ou o Wordpad do Windows. 
+
 ## **16.1 Arquivo Binário - Leitura**
 
 Exercício 1:
